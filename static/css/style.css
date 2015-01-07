@@ -1,0 +1,307 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+font-family: sans-serif;
+font-size: 13px;
+color: #434343;
+overflow-y: scroll;
+}
+
+strong {
+font-weight: bold;
+}
+
+em {
+font-style: italic;
+}
+
+a {
+color: #007f9a;
+text-decoration: none;
+}
+
+a:hover {
+color: #006378;
+}
+
+a:focus {
+outline: none;
+}
+
+h1 {
+font-size: 28px;
+font-weight: normal;
+}
+
+h2 {
+font-size: 16px;
+font-weight: bold;
+}
+
+h3 {
+font-size: 14px;
+font-weight: bold;
+}
+
+p {
+font-size: 13px;
+}
+
+img {
+display: block;
+}
+
+ul {
+margin: 5px 0px 5px 7px;
+list-style-type: none;
+}
+
+ul li:before {
+content: "\00BB\0020"
+}
+
+ul ul {
+margin: 0px 0px 0px 10px;
+}
+
+ul.nom_top {
+margin: 0px 0px 5px 7px;
+list-style-type: none;
+}
+
+table {
+border-collapse: collapse;
+}
+
+th {
+font-weight: bold;
+padding: 2px 4px;
+border: 1px solid #636363;
+}
+
+td {
+padding: 2px 4px;
+border: 1px solid #636363;
+}
+
+#contentbox {
+margin: 0px auto;
+width: 912px;
+background-color: #007f9a;
+padding: 10px 10px 3px 10px;
+overflow: hidden;
+}
+
+#headbox {
+height: 200px;
+background-image:url('../img/site/head.jpg');
+background-repeat:no-repeat;
+background-position:right top;
+}
+
+#innerheadbox {
+height: 146px;
+padding: 5px 0px 0px 10px;
+color: #ffffff;
+text-shadow: 2px 2px 2px #333333;
+}
+
+#innerheadbox span {
+color: #ffffff;
+text-shadow: 2px 2px 2px #333333;
+}
+
+#navbox {
+margin: 0px auto;
+width: 932px;
+height: 49px;
+background-color: #007f9a;
+}
+
+div.navitem {
+float: left;
+height: 23px;
+width: 132px;
+margin-top: 1px;
+margin-left: 1px;
+text-align: center;
+line-height: 23px;
+font-weight: bold;
+text-decoration: none;
+color: #d0d0d0;
+}
+
+div.navitem:hover {
+background-color: #006378;
+}
+
+#ribbon {
+height: 25px;
+background-color: #006378;
+}
+
+#footer {
+margin: 0px auto;
+width: 929px;
+height: 132px;
+padding-right: 0px;
+padding-top: 2px;
+text-decoration: none;
+color: #5d5d5d;
+}
+
+#footer > a {
+float: right;
+}
+
+div#floatbox_l {
+float: left;
+}
+
+div#floatbox_r {
+float: right;
+}
+
+div#floatbox_b {
+float: none;
+}
+
+div.innercontent_l {
+background-color: #f7f7f7;
+padding: 5px 7px 5px 7px;
+width: 700px;
+margin-bottom: 7px;
+overflow: hidden;
+}
+
+div.innercontent_r {
+background-color: #f7f7f7;
+padding: 5px 7px 5px 7px;
+width: 175px;
+margin-bottom: 7px;
+overflow: hidden;
+}
+
+div.innercontent_b {
+background-color: #f7f7f7;
+padding: 0px 2px 0px 2px;
+margin-bottom: 7px;
+overflow: hidden;
+}
+
+div.innercontent_b div.headline {
+padding: 5px;
+border-bottom: solid 2px #006378;
+}
+
+div.headline a {
+color: #434343;
+}
+
+div.innercontent_b div.textbody {
+padding: 7px 7px 5px 7px;
+}
+
+div.innercontent_b div.footline {
+margin: 0px 10px 7px 7px;
+padding-top: 5px;
+border-top: solid 1px #006378;
+overflow: hidden;
+clear: both;
+}
+
+div.footline div.tags {
+float: left;
+}
+
+div.footline div.date {
+float: right;
+}
+
+div.footline div p {
+font-size: 11px;
+text-align: right;
+}
+
+pre {
+font-family: monospace;
+color: #eeeeee;
+margin: 10px 10px 10px 0px;
+border-left: solid 20px #ffffff;
+padding: 5px;
+background-color: #434343;
+font-size: 11px;
+white-space: pre-wrap;
+overflow: hidden;
+}
+
+div.imgsrc {
+background-color: #d5d5d5;
+padding: 0px 2px 0px 2px;
+}
+
+div.imgsrc > p {
+font-size: 10px;
+}
+
+div.imgfloatleft {
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+div.imgfloatright {
+float: right;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+div.imgdropdown {
+height: 40px;
+overflow: hidden;
+}
+
+div.imgdropdown:hover {
+height: 100%;
+}
+
+#inb4mail:after {
+content: "\0040\0067\006D\0061\0069\006C\002E\0063\006F\006D";
+}
+
+#inb4mail:before {
+content: "\0074\0061\0072\0065\006B\0073\0061\0069\0065\0072";
+}
+
+span.a {
+color: #007f9a;
+text-decoration: none;
+}
+
+span.a:hover {
+color: #006378;
+}
+
+a.info, a.info:hover {
+color: #636363;
+}
+
+div.hr {
+height: 1px;
+background-color: #ababab;
+margin: 15px 0px 15px 0px;
+}
+
+div.blog_nav {
+background-color: #f7f7f7;
+width: 25%;
+height: 100%;
+float: left;
+}
+
+div.blog_nav_hover:hover {
+background-color: #d5d5d5;
+}

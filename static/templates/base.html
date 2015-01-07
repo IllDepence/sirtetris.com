@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<title>sirtetris/{% block subtitle %}{% endblock %}</title>
+<meta name="author" content="Tarek Saier">
+<meta name="robots" content="index,follow">
+</head>
+
+<body>
+<div id="headbox">
+    <div id="innerheadbox">
+    </div>
+    <div id="navbox">
+        {% for item in range(14) %}
+                {% if loop.index0<navitems|length and navitems[loop.index0]['text']|length>0 %}
+                    <a href="?c={{ navitems[loop.index0]['link'] }}"><div class="navitem">{{ navitems[loop.index0]['text'] }}</div></a>
+                {% else %}
+                    <div class="navitem"></div>
+                {% endif %}
+        {% endfor %}
+    </div>
+</div>
+<div id="ribbon"></div>
+<div id="contentbox">
+    {% block content %}{% endblock %}
+</div>
+
+<div id="footer">
+  <a rel="license" href="http://www.wtfpl.net/txt/copying/" title="DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE"><img src="static/img/site/wtfpl.png" style="border-style: none;" alt="WTFPL" /></a>
+  <a href="https://github.com/IllDepence/sirtetris.com" title="this website on GitHub"><img src="static/img/site/github.png" style="border-style: none; margin-right: 10px;" alt="GitHub" /></a>
+</div>
+</body>
+
+</html>
