@@ -14,7 +14,7 @@ SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
 yt_toggle = re.compile('^<!-- ytdd:(.*):(.*) -->$', re.M)
 
-# mardown v2.5 dropped support for python 2.6, OVH uses python 2.6.6
+# markdown v2.5 dropped support for python 2.6, OVH uses python 2.6.6
 # also, including modules w/o installing because hosting contract only
 sys.path.append(HOME_DIR + 'moc/pywebsite/modules/Markdown-2.4')
 sys.path.append(HOME_DIR + 'moc/pywebsite/modules/MarkupSafe-0.23')
