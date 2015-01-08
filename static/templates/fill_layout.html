@@ -2,14 +2,9 @@
 {% block subtitle %}{{ subtitle }}{% endblock %}
 {% block content %}
 <div id="floatbox_b">
-    {% for item in right %}
+    {% for item in fill %}
         <div class="innercontent_b">
-            <div class="headline">
-                <h1>{{ item['headline'] }}</h1>
-            </div>
-            <div class="textbody">
-                {{ item['text'] }}
-            </div>
+            {{ item }}
         </div>
     {% endfor %}
 </div>
