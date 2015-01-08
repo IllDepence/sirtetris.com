@@ -5,12 +5,14 @@ import cgi
 import cgitb
 cgitb.enable()
 
-import sys
 import codecs
+import re
+import sys
 
 HOME_DIR = '/homez.151/sirtetri/'
 SEPARATOR = u'- - -\n'
-MD_EXT = ['markdown.extensions.tables', 'markdown.extensions.nl2br']
+MD_EXT = ['markdown.extensions.tables']
+yt_toggle = re.compile('^<!-- ytdd:(.*):(.*) -->$', re.M)
 
 # mardown v2.5 dropped support for python 2.6, OVH uses python 2.6.6
 # also, including modules w/o installing because hosting contract only
@@ -32,6 +34,11 @@ else:
 fd = codecs.open('static/content/{0}.md'.format(page), encoding='utf-8')
 content = fd.read()
 fd.close()
+
+content = re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
+    r'<input type="checkbox" id="vis-toggle-\2"/><iframe id="vis-content-\2" '\
+    r'width="700" height="436" src="//www.youtube.com/embed/\2" '\
+    r'frameborder="0" allowfullscreen></iframe>', content)
 
 if SEPARATOR+SEPARATOR in content:
     template = env.get_template('split_layout.html')
