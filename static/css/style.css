@@ -201,7 +201,7 @@ margin-bottom: 7px;
 overflow: hidden;
 }
 
-div.innercontent_b * {
+div.innercontent_b > * {
 padding: 0px 7px 0px 7px;
 }
 
@@ -216,8 +216,8 @@ color: #434343;
 }
 
 div.innercontent_b div.footline {
-margin: 0px 10px 7px 7px;
-padding-top: 5px;
+margin: 5px 10px 0px 7px;
+padding: 5px 0px 0px 0px;
 border-top: solid 1px #006378;
 overflow: hidden;
 clear: both;
