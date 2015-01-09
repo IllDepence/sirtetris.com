@@ -12,7 +12,20 @@ import sys
 HOME_DIR = '/homez.151/sirtetri/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
-yt_toggle = re.compile('^<!-- ytdd:(.*):(.*) -->$', re.M)
+navitems=[{'link':'tl_dr','text':'tl;dr'},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {'link':'blog','text':'blog'},
+          {'link':'person','text':'person'},
+          {'link':'interests','text':'interests'},
+          {'link':'projects','text':'projects'},
+          {},
+          {},
+          {'link':'contact','text':'contact'}]
 
 # markdown v2.5 dropped support for python 2.6, OVH uses python 2.6.6
 # also, including modules w/o installing because hosting contract only
@@ -24,21 +37,42 @@ from jinja2 import Template, Environment, FileSystemLoader
 
 # - - - - - - - - - -
 
+def yt_toggles(markdown):
+    yt_toggle = re.compile('^<!-- ytdd:(.*):(.*) -->$', re.M)
+    return re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
+        r'<input type="checkbox" id="vis-toggle-\2"/>'\
+        r'<iframe id="vis-content-\2" width="700" height="436" '\
+        r'src="//www.youtube.com/embed/\2" frameborder="0" allowfullscreen>'\
+        r'</iframe>', markdown)
+
+def blog_entries(postget):
+    #TODO implement
+
+    # read entries from json file
+    # handle permalinks, tags, pages
+    # return apprpriate subset
+    return md_entries
+
+# - - - - - - - - - -
+
 env = Environment(loader=FileSystemLoader('static/templates'))
 postget = cgi.FieldStorage()
 if not 'c' in postget:
     page = 'person'
 else:
     page = postget['c'].value
+    valid = [itm['link'] for itm in navitems if 'link' in itm]
+    if not page in valid:
+        page = 'notfound'
 
-fd = codecs.open('static/content/{0}.md'.format(page), encoding='utf-8')
-content = fd.read()
-fd.close()
+if page = 'blog':
+    content = blog_entries(postget)
+else:
+    fd = codecs.open('static/content/{0}.md'.format(page), encoding='utf-8')
+    content = fd.read()
+    fd.close()
 
-content = re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
-    r'<input type="checkbox" id="vis-toggle-\2"/><iframe id="vis-content-\2" '\
-    r'width="700" height="436" src="//www.youtube.com/embed/\2" '\
-    r'frameborder="0" allowfullscreen></iframe>', content)
+content = yt_toggles(content)
 
 if SEPARATOR+SEPARATOR in content:
     template = env.get_template('split_layout.html')
@@ -54,21 +88,6 @@ else:
     fill = [markdown.markdown(f, extensions=MD_EXT) for f in fill]
     left = None
     right = None
-
-navitems=[{'link':'tl_dr','text':'tl;dr'},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {'link':'blog','text':'blog'},
-            {'link':'person','text':'person'},
-            {'link':'interests','text':'interests'},
-            {'link':'projects','text':'projects'},
-            {},
-            {},
-            {'link':'contact','text':'contact'}]
 
 unicode_page = template.render(navitems=navitems, left=left, right=right,
                                 fill=fill, subtitle=page)
