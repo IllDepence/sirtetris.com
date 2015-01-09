@@ -8,6 +8,7 @@ cgitb.enable()
 import codecs
 import json.decoder # why OVH? why?!
 import json.encoder
+import os
 import re
 import sys
 
@@ -50,47 +51,102 @@ def yt_toggles(markdown):
         r'</iframe>', markdown)
 
 def blog_entry(e, imgside):
+    source = ''
+    if len(e['image']) > 0:
+        src_file = re.sub(r'\.[a-z0-9]{1,5}$', '.src', e['image'])
+        path = 'static/img/blog/' + src_file
+        if os.path.isfile(path):
+            fd = codecs.open(path, encoding='utf-8')
+            src = fd.read()
+            fd.close()
+            source = u'<div class="imgsrc"><p>'\
+                         u'<a href="{0}">source</a>'\
+                     u'</p></div>'.format(src)
+
     content = u'# [{0}](?a={1})\n'.format(e['headline'], e['id'])
     content +=  u'<div class="imgfloat{0}">'\
-                    u'<img src="static/img/blog/{1}">'\
-                    u'<div class="imgsrc"><p>'\
-                        u'<a href="static/img/blog/{2}">source</a>'\
-                    u'</p></div>'\
-                u'</div>\n'.format(imgside, e['image'], 'source')
+                    u'<img src="static/img/blog/{1}">{2}'\
+                u'</div>\n'.format(imgside, e['image'], source)
     content += u'{0}\n'.format(e['text'])
     content += u'<div class="footline">'\
-                u'<div class="tags"><p><strong>tags: {0}</strong></p></div>'\
-                u'<div class="date"><p>{1}</p></div>'\
-               u'</div>'.format(' '.join(e['tags']), e['date'])
+                u'<div class="tags"><p><strong>tags: '
+    for t in e['tags']:
+        content +=  u'<a href="?t={0}">{0}</a> '.format(t)
+    content +=  u'</strong></p></div>'\
+                u'<div class="date"><p>{0}</p></div>'\
+               u'</div>'.format(e['date'])
     return content
 
 def blog_entries(postget):
     perma = None
     tag   = None
     page  = 1
+    perpage = 3
 
-    # read entries from json file
     fd = codecs.open('static/blog/entries.json', encoding='utf-8')
     jsn = fd.read()
     fd.close()
     entries_u = jsdec.decode(jsn)
     entries = sorted(entries_u, key=lambda e: e['date'], reverse=True)
+    maxpage = ((len(entries)-1)/perpage)+1
 
-    # handle permalinks, tags, pages
     if 'a' in postget:
         perma = postget['a'].value
     if 't' in postget:
         tag   = postget['t'].value
     if 'p' in postget:
-        page  = postget['p'].value
-    # return apprpriate subset
+        page  = min(int(postget['p'].value), maxpage)
 
-    content = blog_entry(entries[0], 'left')
-    content += '\n- - -\n'
-    content += blog_entry(entries[1], 'right')
-    content += '\n- - -\n'
-    content += blog_entry(entries[2], 'left')
-    #return md_entries
+    if perma != None:   # permalink
+        for i in range(0, len(entries)):
+            if entries[i]['id'] == perma:
+                st_idx = i
+                ed_idx = i+1
+    elif tag != None:   # tag
+        entries_filtered = []
+        for e in entries:
+            if tag in e['tags']:
+                entries_filtered.append(e)
+        entries = entries_filtered
+        st_idx = 0
+        ed_idx = len(entries)-1
+    else:               # normal
+        st_idx = perpage * (page-1)
+        ed_idx = min(st_idx+perpage, len(entries)-1)
+
+    content = ''
+    imgside = 'left'
+    for i in range(st_idx, ed_idx):
+        content += blog_entry(entries[i], imgside)
+        if i<(ed_idx-1):
+            content += u'\n- - -\n'
+        if imgside == 'left': imgside = 'right'
+        else: imgside = 'left'
+
+    # ugly nav bar code is ugly
+    if perma == None and tag == None:
+        n = '\n- - -\n'\
+            u'<!-- custom -->'\
+            u'<div style="text-align: center; padding: 0px;" class="innercontent_b">'
+        if page < maxpage:
+            n += u'<a class="blog_nav" title="older enties" href="?c=blog&amp;p={0}">'\
+                    u'<div class="blog_nav blog_nav_hover"><p>«</p></div>'\
+                u'</a>'.format(page+1)
+        else:
+            n += u'<div class="blog_nav blog_nav_hover"><p>«</p></div>'
+        n +=    u'<div style="width: 50%;" class="blog_nav"><p>'
+        for i in range(1,maxpage+1)[::-1]:
+            n +=    u'<a href="?c=blog&amp;p={0}">{0} </a>'.format(i)
+        n +=  u'</p></div>'
+        if page > 1:
+            n += u'<a class="blog_nav" title="newer enties" href="?c=blog&amp;p={0}">'\
+                    u'<div class="blog_nav blog_nav_hover"><p>»</p></div>'\
+                u'</a>'.format(page-1)
+        else:
+            n += u'<div class="blog_nav blog_nav_hover"><p>»</p></div>'
+        n += u'</div>'
+        content += n
+
     return content
 
 # - - - - - - - - - -

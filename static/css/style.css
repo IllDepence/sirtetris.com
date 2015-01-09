@@ -201,7 +201,7 @@ margin-bottom: 7px;
 overflow: hidden;
 }
 
-div.innercontent_b > * {
+div.innercontent_b > *:not(.blog_nav) {
 padding: 0px 7px 0px 7px;
 }
 
@@ -261,12 +261,14 @@ div.imgfloatleft {
 float: left;
 margin-right: 10px;
 margin-bottom: 10px;
+padding-right: 0;
 }
 
 div.imgfloatright {
 float: right;
 margin-left: 10px;
 margin-bottom: 10px;
+padding-left: 0;
 }
 
 div.imgdropdown {

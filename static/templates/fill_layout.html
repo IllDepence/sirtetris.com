@@ -3,9 +3,11 @@
 {% block content %}
 <div id="floatbox_b">
     {% for item in fill %}
-        <div class="innercontent_b">
+        {% if '<!-- custom -->' in item %}
             {{ item }}
-        </div>
+        {% else %}
+            <div class="innercontent_b">{{ item }}</div>
+        {% endif %}
     {% endfor %}
 </div>
 {% endblock %}

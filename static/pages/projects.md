@@ -58,7 +58,7 @@ Timeline |
 ![](static/img/projects/websites.png)
 
 Started doing this in 2005. Content changes over time as do my interests.
-<script src="static/content/kanjigraph.js"></script>
+<script src="static/pages/kanjigraph.js"></script>
 - - -
 - - -
 ## GitHub
