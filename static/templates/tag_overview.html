@@ -1,0 +1,2 @@
+<h1>#{{ tag_curr }}</h1>
+<strong>all tags:</strong>{% for tag in tag_list %} <strong><a href="?t={{ tag[0] }}">{{ tag[0] }}</a></strong>[{{ tag[1] }}]{% if not loop.last %} {% endif %}{% endfor %}

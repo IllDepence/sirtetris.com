@@ -201,9 +201,13 @@ margin-bottom: 7px;
 overflow: hidden;
 }
 
-div.innercontent_b > *:not(.blog_nav) {
-padding: 0px 7px 0px 7px;
+div.innercontent_b > div:not(.blog_nav),
+div.innercontent_b > p,
+div.innercontent_b > img {
+padding: 0 7px 0 7px;
 }
+div.innercontent_b > div.imgfloatleft { padding-right: 0; }
+div.innercontent_b > div.imgfloatright { padding-left: 0; }
 
 div.innercontent_b h1 {
 padding: 5px;

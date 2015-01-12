@@ -63,7 +63,7 @@ def blog_entry(e, imgside):
                          u'<a href="{0}">source</a>'\
                      u'</p></div>'.format(src)
 
-    content = u'# [{0}](?a={1})\n'.format(e['headline'], e['id'])
+    content = u'# [{0}](?a={1})\n'.format(e['headline'], e['id']) #TODO: use template, see tag overview
     content +=  u'<div class="imgfloat{0}">'\
                     u'<img src="static/img/blog/{1}">{2}'\
                 u'</div>\n'.format(imgside, e['image'], source)
@@ -97,16 +97,27 @@ def blog_entries(postget):
     if 'p' in postget:
         page  = min(int(postget['p'].value), maxpage)
 
+    content = ''
+
     if perma != None:   # permalink
         for i in range(0, len(entries)):
             if entries[i]['id'] == perma:
                 st_idx = i
                 ed_idx = i+1
     elif tag != None:   # tag
+        tag_dict = {}
         entries_filtered = []
         for e in entries:
             if tag in e['tags']:
                 entries_filtered.append(e)
+            for t in e['tags']:
+                if not t in tag_dict:
+                    tag_dict[t] = 0
+                tag_dict[t] = tag_dict[t]+1
+        tag_list = sorted(tag_dict.items(), key=lambda x: x[1])[::-1]
+        template = env.get_template('tag_overview.html')
+        tag_overview = template.render(tag_curr=tag, tag_list=tag_list)
+        content = tag_overview + u'\n- - -\n'
         entries = entries_filtered
         st_idx = 0
         ed_idx = len(entries)-1
@@ -114,7 +125,6 @@ def blog_entries(postget):
         st_idx = perpage * (page-1)
         ed_idx = min(st_idx+perpage, len(entries)-1)
 
-    content = ''
     imgside = 'left'
     for i in range(st_idx, ed_idx):
         content += blog_entry(entries[i], imgside)
@@ -124,8 +134,8 @@ def blog_entries(postget):
         else: imgside = 'left'
 
     # ugly nav bar code is ugly
-    if perma == None and tag == None:
-        n = '\n- - -\n'\
+    if perma == None and tag == None: #TODO: use template, see tag overview
+        n = u'\n- - -\n'\
             u'<!-- custom -->'\
             u'<div style="text-align: center; padding: 0px;" class="innercontent_b">'
         if page < maxpage:
@@ -136,7 +146,7 @@ def blog_entries(postget):
             n += u'<div class="blog_nav blog_nav_hover"><p>«</p></div>'
         n +=    u'<div style="width: 50%;" class="blog_nav"><p>'
         for i in range(1,maxpage+1)[::-1]:
-            n +=    u'<a href="?c=blog&amp;p={0}">{0} </a>'.format(i)
+            n +=    u'<a href="?c=blog&amp;p={0}">{0} </a>'.format(i) # TODO: current page not as link
         n +=  u'</p></div>'
         if page > 1:
             n += u'<a class="blog_nav" title="newer enties" href="?c=blog&amp;p={0}">'\
@@ -158,6 +168,7 @@ if not 'c' in postget:
 else:
     page = postget['c'].value
     valid = [itm['link'] for itm in navitems if 'link' in itm]
+    valid.append('imprint')
     if not page in valid:
         page = 'notfound'
 
