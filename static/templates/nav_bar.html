@@ -1,0 +1,22 @@
+<!-- custom -->
+<div style="text-align: center; padding: 0px;" class="innercontent_b">
+{% if page<maxpage %}
+<a class="blog_nav" title="older enties" href="?c=blog&amp;p={{ page+1 }}">
+<div class="blog_nav blog_nav_hover"><p>«</p></div>
+</a>
+{% else %}
+<div class="blog_nav blog_nav_hover"><p>«</p></div>
+{% endif %}
+<div style="width: 50%;" class="blog_nav"><p>
+{% for i in page_nums %}
+{% if i==page %}{{ i }} {% else %}<a href="?c=blog&amp;p={{ i }}">{{ i }}</a> {% endif %}
+{% endfor %}
+</p></div>
+{% if page>1 %}
+<a class="blog_nav" title="newer enties" href="?c=blog&amp;p={{ page-1 }}">
+<div class="blog_nav blog_nav_hover"><p>»</p></div>
+</a>
+{% else %}
+<div class="blog_nav blog_nav_hover"><p>»</p></div>
+{% endif %}
+</div>

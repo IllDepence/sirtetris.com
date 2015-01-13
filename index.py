@@ -64,6 +64,7 @@ def blog_entry(e, imgside):
                      u'</p></div>'.format(src)
 
     content = u'# [{0}](?a={1})\n'.format(e['headline'], e['id']) #TODO: use template, see tag overview
+                                                                  # and parse blog text as markdown
     content +=  u'<div class="imgfloat{0}">'\
                     u'<img src="static/img/blog/{1}">{2}'\
                 u'</div>\n'.format(imgside, e['image'], source)
@@ -120,7 +121,7 @@ def blog_entries(postget):
         content = tag_overview + u'\n- - -\n'
         entries = entries_filtered
         st_idx = 0
-        ed_idx = len(entries)-1
+        ed_idx = len(entries)
     else:               # normal
         st_idx = perpage * (page-1)
         ed_idx = min(st_idx+perpage, len(entries)-1)
@@ -133,29 +134,12 @@ def blog_entries(postget):
         if imgside == 'left': imgside = 'right'
         else: imgside = 'left'
 
-    # ugly nav bar code is ugly
-    if perma == None and tag == None: #TODO: use template, see tag overview
-        n = u'\n- - -\n'\
-            u'<!-- custom -->'\
-            u'<div style="text-align: center; padding: 0px;" class="innercontent_b">'
-        if page < maxpage:
-            n += u'<a class="blog_nav" title="older enties" href="?c=blog&amp;p={0}">'\
-                    u'<div class="blog_nav blog_nav_hover"><p>«</p></div>'\
-                u'</a>'.format(page+1)
-        else:
-            n += u'<div class="blog_nav blog_nav_hover"><p>«</p></div>'
-        n +=    u'<div style="width: 50%;" class="blog_nav"><p>'
-        for i in range(1,maxpage+1)[::-1]:
-            n +=    u'<a href="?c=blog&amp;p={0}">{0} </a>'.format(i) # TODO: current page not as link
-        n +=  u'</p></div>'
-        if page > 1:
-            n += u'<a class="blog_nav" title="newer enties" href="?c=blog&amp;p={0}">'\
-                    u'<div class="blog_nav blog_nav_hover"><p>»</p></div>'\
-                u'</a>'.format(page-1)
-        else:
-            n += u'<div class="blog_nav blog_nav_hover"><p>»</p></div>'
-        n += u'</div>'
-        content += n
+    if perma == None and tag == None:
+        page_nums = range(1,maxpage+1)[::-1]
+        template = env.get_template('nav_bar.html')
+        nav_bar = template.render(page=page, maxpage=maxpage, page_nums=page_nums)
+        content += u'\n- - -\n'
+        content += nav_bar
 
     return content
 
