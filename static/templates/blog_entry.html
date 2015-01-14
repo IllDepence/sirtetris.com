@@ -1,0 +1,17 @@
+<!-- custom -->
+<div class="innercontent_b">
+<h1><a href="?t={{ eid }}">{{ headline }}</a></h1>
+{% if image|length > 0 %}
+<div class="imgfloat{{ image_side }}">
+<img src="static/img/blog/{{ image  }}">
+{% if image_source|length > 0 %}
+<div class="imgsrc"><p><a href="{{ image_source }}">image_source</a></p></div>
+{% endif %}
+</div>
+{% endif %}
+{{ text|safe }}
+<div class="footline">
+<div class="tags"><p><strong>tags: {% for t in tags %}<a href="?t={{ t }}">{{ t }}</a> {% endfor %}</strong></p></div>
+<div class="date"><p>{{ date }}</p></div>
+</div>
+</div>

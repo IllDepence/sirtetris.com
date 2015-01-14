@@ -51,32 +51,20 @@ def yt_toggles(markdown):
         r'</iframe>', markdown)
 
 def blog_entry(e, imgside):
-    source = ''
+    image = ''
+    image_source = ''
     if len(e['image']) > 0:
         src_file = re.sub(r'\.[a-z0-9]{1,5}$', '.src', e['image'])
         path = 'static/img/blog/' + src_file
         if os.path.isfile(path):
             fd = codecs.open(path, encoding='utf-8')
-            src = fd.read()
+            image_source = fd.read()
             fd.close()
-            source = u'<div class="imgsrc"><p>'\
-                         u'<a href="{0}">source</a>'\
-                     u'</p></div>'.format(src)
-
-    content = u'# [{0}](?a={1})\n'.format(e['headline'], e['id']) #TODO: use template, see tag overview
-                                                                  # and parse blog text as markdown
-    content +=  u'<div class="imgfloat{0}">'\
-                    u'<img src="static/img/blog/{1}">{2}'\
-                u'</div>\n'.format(imgside, e['image'], source)
-    content += u'{0}\n'.format(e['text'])
-    content += u'<div class="footline">'\
-                u'<div class="tags"><p><strong>tags: '
-    for t in e['tags']:
-        content +=  u'<a href="?t={0}">{0}</a> '.format(t)
-    content +=  u'</strong></p></div>'\
-                u'<div class="date"><p>{0}</p></div>'\
-               u'</div>'.format(e['date'])
-    return content
+    template = env.get_template('blog_entry.html')
+    blog_entry = template.render(eid=e['id'], headline=e['headline'],
+        image=e['image'], image_source=image_source, image_side=imgside,
+        text=e['text'], tags=e['tags'], date=e['date'])
+    return blog_entry
 
 def blog_entries(postget):
     perma = None
