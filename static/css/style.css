@@ -203,7 +203,8 @@ overflow: hidden;
 
 div.innercontent_b > div:not(.blog_nav),
 div.innercontent_b > p,
-div.innercontent_b > img {
+div.innercontent_b > img,
+div.innercontent_b > label {
 padding: 0 7px 0 7px;
 }
 div.innercontent_b > div.imgfloatleft { padding-right: 0; }

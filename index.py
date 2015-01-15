@@ -12,7 +12,8 @@ import os
 import re
 import sys
 
-HOME_DIR = '/homez.151/sirtetri/'
+HOME_DIR = '/homez.151/sirtetri/moc/pywebsite/'
+#HOME_DIR = '/usr/share/nginx/html/tarek/pywebsite/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
 navitems=[{'link':'tl_dr','text':'tl;dr'},
@@ -34,16 +35,16 @@ jsenc = json.encoder.JSONEncoder()
 
 # markdown v2.5 dropped support for python 2.6, OVH uses python 2.6.6
 # also, including modules w/o installing because hosting contract only
-sys.path.append(HOME_DIR + 'moc/pywebsite/modules/Markdown-2.4')
-sys.path.append(HOME_DIR + 'moc/pywebsite/modules/MarkupSafe-0.23')
-sys.path.append(HOME_DIR + 'moc/pywebsite/modules/jinja2-2.7.3')
+sys.path.append(HOME_DIR + 'modules/Markdown-2.4')
+sys.path.append(HOME_DIR + 'modules/MarkupSafe-0.23')
+sys.path.append(HOME_DIR + 'modules/jinja2-2.7.3')
 import markdown
 from jinja2 import Template, Environment, FileSystemLoader
 
 # - - - - - - - - - -
 
 def yt_toggles(markdown):
-    yt_toggle = re.compile('^<!-- ytdd:(.*):(.*) -->$', re.M)
+    yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
     return re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
         r'<input type="checkbox" id="vis-toggle-\2"/>'\
         r'<iframe id="vis-content-\1" width="700" height="436" '\
