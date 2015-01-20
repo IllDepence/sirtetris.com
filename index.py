@@ -47,8 +47,14 @@ def yt_toggles(markdown):
     yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
     return re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
         r'<input type="checkbox" id="vis-toggle-\2"/>'\
-        r'<iframe id="vis-content-\1" width="700" height="436" '\
+        r'<iframe id="vis-content-\2" width="700" height="436" '\
         r'src="//www.youtube.com/embed/\2" frameborder="0" allowfullscreen>'\
+        r'</iframe>', markdown)
+
+def yt_inserts(markdown):
+    yt_toggle = re.compile('<!-- yt:(.*) -->', re.M)
+    return re.sub(yt_toggle, r'<iframe width="700" height="436" '\
+        r'src="//www.youtube.com/embed/\1" frameborder="0" allowfullscreen>'\
         r'</iframe>', markdown)
 
 def blog_entry(e, imgside):
@@ -113,7 +119,7 @@ def blog_entries(postget):
         ed_idx = len(entries)
     else:               # normal
         st_idx = perpage * (page-1)
-        ed_idx = min(st_idx+perpage, len(entries)-1)
+        ed_idx = min(st_idx+perpage, len(entries))
 
     imgside = 'left'
     for i in range(st_idx, ed_idx):
@@ -153,6 +159,7 @@ else:
     fd.close()
 
 content = yt_toggles(content)
+content = yt_inserts(content)
 
 if SEPARATOR+SEPARATOR in content:
     template = env.get_template('split_layout.html')

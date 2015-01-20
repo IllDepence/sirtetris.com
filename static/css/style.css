@@ -76,7 +76,7 @@ ul ul {
 margin: 0px 0px 0px 10px;
 }
 
-ul.nom_top {
+h4 + ul {
 margin: 0px 0px 5px 7px;
 list-style-type: none;
 }
@@ -204,7 +204,12 @@ overflow: hidden;
 div.innercontent_b > div:not(.blog_nav),
 div.innercontent_b > p,
 div.innercontent_b > img,
-div.innercontent_b > label {
+div.innercontent_b > label,
+div.innercontent_b > iframe,
+div.innercontent_b > h1,
+div.innercontent_b > h2,
+div.innercontent_b > h3,
+div.innercontent_b > h4 {
 padding: 0 7px 0 7px;
 }
 div.innercontent_b > div.imgfloatleft { padding-right: 0; }
@@ -241,14 +246,20 @@ font-size: 11px;
 text-align: right;
 }
 
-pre {
+code {
 font-family: monospace;
-color: #eeeeee;
-margin: 10px 10px 10px 0px;
-border-left: solid 20px #ffffff;
-padding: 5px;
-background-color: #434343;
+padding: 2px;
+background-color: #dedede;
 font-size: 11px;
+}
+
+pre > code {
+color: #eeeeee;
+background-color: #434343;
+padding: 5px;
+display: block;
+margin: 10px 10px 10px 0px;
+border-left: solid 20px #f7f7f7;
 white-space: pre-wrap;
 overflow: hidden;
 }
