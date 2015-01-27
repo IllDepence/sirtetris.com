@@ -12,7 +12,7 @@ import os
 import re
 import sys
 
-HOME_DIR = '/homez.151/sirtetri/moc/pywebsite/'
+HOME_DIR = '/homez.151/sirtetri/www/'
 #HOME_DIR = '/usr/share/nginx/html/tarek/pywebsite/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']

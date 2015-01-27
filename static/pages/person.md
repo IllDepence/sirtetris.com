@@ -1,8 +1,8 @@
 <!-- custom --><div class="innercontent_l" style="background-image: url('static/img/person/120616-the_fuck_is_this.jpg'); height: 500px;">
     <div style="padding: 110px 100px">
         <h1>ggggggg</h1>
-        <p>ggggggg</p>
-        <p>ggg</p>
+        <p>ggggggg<br>
+        ggg</p>
     </div>
 </div>
 - - -

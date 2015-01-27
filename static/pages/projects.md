@@ -44,6 +44,7 @@ Timeline |
 14/11/20 | [1400 kanji](?a=9b8e3e23)
 14/12/23 | [1500 kanji](?a=52333c06)
 14/12/31 | 4000 words vocabulary
+15/01/27 | [1600 kanji](?a=3bb14cdc)
 - - -
 # I tinker with tech!
 *Mostly in terms of software though.*
