@@ -6,7 +6,9 @@
 
 ![](static/img/interests/jp.jpg)
 
-Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes and various ways to read and interpret them depending on their current context; and over 30 (!!!) common, individual ways to count things, each assiciated with a group of things it's used for.
+Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each assiciated with a group of things it's used for.
+
+On the other hand pronunciation is faily easy and super consistent, grammar is totally manageable and there are awesome aspects like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
 
 #### Overview
 
@@ -71,13 +73,41 @@ Prepare to face three different, partly redundant, simultaneously used scripts; 
 ‌  
 My personal Japanese progress has it's own place in the [projects section](?c=projects).
 - - -
+# かるた<span id="karuta"></span>
+*難波津に…*
+
+![](static/img/interests/karuta.jpg)
+
+「かるた」 ([karuta](http://en.wikipedia.org/wiki/Karuta)) is a Japanese loanword originally from Portuguese (“carta”) and a term used to describe several types of Japanese card games. A particularly interesting group of which is called 歌がるた and often based on the poem collection 小倉百人一首 ([Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu)) by 藤原 定家 ([Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika)).  
+競技かるた ([kyōgi karuta](http://en.wikipedia.org/wiki/Competitive_karuta)) is the competitive version of 歌がるた.
+
+If you want to get an overview of かるた-type games and more detailed information feel free to have a look at [this info page](http://moc.sirtetris.com/karuta/) I created. A brief peak into kyōgi karuta right here:
+
+An English version of the rules of kyōgi karuta can be found [here](http://karuta.game.coocan.jp/simplerule-e.html). Further useful resources:
+
+* [Japan Karuta Association](http://www.karuta.or.jp/) (up-to-date information about tournaments)
+* [World of Kyogi Karuta](http://karuta.game.coocan.jp/index.html)
+* [Hyakunin Isshu overview with english translations](http://etext.virginia.edu/japanese/hyakunin/index.html)
+
+To get an idea of how kyōgi karuta is played, watch one of the following videos:
+<!-- ytdd:Explanatory karuta match with English commentary:nKAmZxVhQww -->
+<!-- ytdd:Recording of a karuta match with visual aids and slow motion replays:BiID7_0aqsc -->
+
+Even more goodies:
+
+* [the flickr account](https://secure.flickr.com/photos/nzkka/) of the New Zealand Karuta Association
+* [a nice essay](http://www.asahi-net.or.jp/~xs3d-bull/essays/karuta/karuta.html) about kyōgi karuta
+
+‌  
+A fun way to learn more about the world of karuta would be reading the manga [Chihayafuru](http://en.wikipedia.org/wiki/Chihayafuru) or watching the anime adaptaion.
+- - -
 # Penspinning<span id="penspinning"></span>
 *Contact juggling with pens!*
 
 ![](static/img/interests/ps.jpg)
 
 Getting into penspinning is quite easy. You grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.  
-It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the [UPSB](http://forum.upsb.info/forum.php), I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)
+It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the [UPSB](http://upsb.info/), I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)
 
 After I started penspinning in 2007 I actively did it — meaning I really took my time to practice, looked out for new tricks to learn, etc. — for maybe a year and a half. Since then I only do it casually, barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)
 
@@ -86,31 +116,23 @@ After I started penspinning in 2007 I actively did it — meaning I really took 
 <!-- ytdd:Copy clip:shhumscxa0s -->
 <!-- ytdd:Freestyle:mGnMcw7IM9I -->
 - - -
-# Kyogi Karuta<span id="karuta"></span>
-*難波津に…*
+# Self-management<span id="management"></span>
+*Information, time, habits, health, ...*
 
-![](static/img/interests/karuta.jpg)
+![](static/img/interests/infotime.png)
 
-[Karuta](http://en.wikipedia.org/wiki/Karuta) (かるた) is a Japanese card game based on the poem collection [Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu) (小倉百人一首) — often just called the Hyakunin Issu (百人一首) — by [Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika) (藤原 定家).  
-[Kyogi karuta](http://en.wikipedia.org/wiki/Competitive_karuta) (競技かるた) means playing かるた in a competitive manner.
+I only recently(-ish) started to really think about ways to organize my life and myself more efficiently. Ever since the podcast [Hello Internet](http://www.hellointernet.fm/) popped into existence [CGP Grey](http://www.cgpgrey.com/) seems to me like a figure to aspire to in that regard but ... I'm not an Apple user, so no OmniFocus for me. Jests aside, here's some relevant stuff:
 
-An English version of the rules of kyogi karuta can be found [here](http://karuta.game.coocan.jp/simplerule-e.html). Further useful resources:
+#### A personal wiki
+In order to organize information I use [gitit](http://gitit.net/). Reasons: Markdown, subfolders, MathJax, git based.
 
-* [Japan Karuta Association](http://www.karuta.or.jp/) (up-to-date information about tournaments)
-* [World of Kyogi Karuta](http://karuta.game.coocan.jp/index.html)
-* [Hyakunin Isshu overview with english translations](http://etext.virginia.edu/japanese/hyakunin/index.html)
+#### Memorize stuff (SRS)
+[Anki](http://ankisrs.net/) — ever since I set out to learn 2000+ Japanese characters. Have something that you'd like to memorize efficiently and forever? SRS!
 
-To get an idea of how kyogi karuta is played, watch one of the following videos:
-<!-- ytdd:Explanatory karuta match with English commentary:nKAmZxVhQww -->
-<!-- ytdd:Recording of a karuta match with visual aids and slow motion replays:BiID7_0aqsc -->
-
-Even more goodies:
-
-* [the flickr account](https://secure.flickr.com/photos/nzkka/) of the New Zealand Karuta Association
-* [a nice essay](http://www.asahi-net.or.jp/~xs3d-bull/essays/karuta/karuta.html) about kyogi karuta
-
-‌  
-A fun way to learn more about the world of karuta would be reading the manga [Chihayafuru](http://en.wikipedia.org/wiki/Chihayafuru) or watching the anime adaptaion.
+#### Misc
+* GitHub for code and configs
+* Kindle instead of analog books for mobility
+* <s>[HabitRPG](https://habitrpg.com/)</s> tried it, didn't work out for me
 - - -
 # Mechanical keyboards<span id="keyboards"></span>
 *High quality input devices. :3*
@@ -177,7 +199,7 @@ If you're lucky enough to be able to enjoy anime you're likely to be oversupplie
 Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.
 
 ### AMVs
-Best sources quality AMVs: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
+Best quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
 
 Example AMVs:  
 <!-- ytdd:Externalize (Chihayafuru/mixed):09cyrQu5yVA -->
@@ -200,7 +222,7 @@ Example AMVs:
 # Misc<span id="misc"></span>
 Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.
 
-* cinematography (as in [I watch movies](src/movielist/movies))
+* cinematography (as in [I watch movies](static/dl/movies))
 * flourishing ([2009](static/img/interests/flourishing.gif))
 * it security
 * linux
@@ -220,8 +242,9 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
     <h2>Nav</h2>
     <ul>
         <li><a href="#japanese">Japanese language</a></li>
+        <li><a href="#karuta">かるた</a></li>
         <li><a href="#penspinning">Penspinning</a></li>
-        <li><a href="#karuta">Kyogi Karuta</a></li>
+        <li><a href="#management">Self-management</a></li>
         <li><a href="#keyboards">Mechanical keyboards</a></li>
         <li><a href="#exploration">(Urban) Exploration</a></li>
         <li><a href="#lockpicking">Lock picking</a></li>
