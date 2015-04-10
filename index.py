@@ -45,9 +45,9 @@ from jinja2 import Template, Environment, FileSystemLoader
 
 def yt_toggles(markdown):
     yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
-    return re.sub(yt_toggle, r'<a id="\2" onclick="toggle_vis(this); '\
-        r'return false;">\1</a><br><div id="vis-cntnt-\2" class="vis-off">'\
-        r'</div>', markdown)
+    return re.sub(yt_toggle, r'<a href="//www.youtube.com/watch?v=\2" id="\2"'\
+        r' class="vis-tggl">\1</a><br>'\
+        r'<div id="vis-cntnt-\2" class="vis-off"></div>', markdown)
 
 def yt_inserts(markdown):
     yt_toggle = re.compile('<!-- yt:(.*) -->', re.M)

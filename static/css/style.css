@@ -339,7 +339,7 @@ cursor: pointer;
 }
 
 /* visibility toggle */
-a[onclick] {
+a.vis-tggl {
 cursor: pointer;
 }
 
