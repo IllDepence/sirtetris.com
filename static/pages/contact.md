@@ -1,6 +1,6 @@
 # E-Mail
 The easiest way to contact me is to send an e-mail to <span id="inb4mail"></span>.  
-If you wish to communicate securely use my [gpg public key](src/dl/tarek_saier_gpg_public_key.asc).
+If you wish to communicate securely use my [gpg public key](static/dl/tarek_saier_gpg_public_key.asc).
 - - -
 # Other
 You can always try to reach me on one of the platforms listed as web links within the [person secion](?c=person).

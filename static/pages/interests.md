@@ -8,7 +8,7 @@
 
 Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each assiciated with a group of things it's used for.
 
-On the other hand pronunciation is faily easy and super consistent, grammar is totally manageable and there are awesome aspects like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
+On the other hand pronunciation is fairly easy and super consistent, grammar is totally manageable and there are awesome aspects like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
 
 #### Overview
 

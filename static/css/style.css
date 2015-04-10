@@ -339,14 +339,14 @@ cursor: pointer;
 }
 
 /* visibility toggle */
-[id^="vis-toggle"] {
+a[onclick] {
+cursor: pointer;
+}
+
+iframe.vis-off {
 display: none;
 }
 
-[id^="vis-content"] {
-display: none;
-}
-
-[id^="vis-toggle"]:checked + [id^="vis-content"] {
+iframe.vis-on {
 display: block;
 }

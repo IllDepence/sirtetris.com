@@ -13,7 +13,7 @@ import re
 import sys
 
 HOME_DIR = '/homez.151/sirtetri/www/'
-#HOME_DIR = '/usr/share/nginx/html/tarek/pywebsite/'
+#HOME_DIR = '/usr/share/nginx/html/tarek/sirtetris/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
 navitems=[{'link':'tl_dr','text':'tl;dr'},
@@ -45,11 +45,9 @@ from jinja2 import Template, Environment, FileSystemLoader
 
 def yt_toggles(markdown):
     yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
-    return re.sub(yt_toggle, r'<label for="vis-toggle-\2">\1</label><br>'\
-        r'<input type="checkbox" id="vis-toggle-\2"/>'\
-        r'<iframe id="vis-content-\2" width="700" height="436" '\
-        r'src="//www.youtube.com/embed/\2" frameborder="0" allowfullscreen>'\
-        r'</iframe>', markdown)
+    return re.sub(yt_toggle, r'<a id="\2" onclick="toggle_vis(this); '\
+        r'return false;">\1</a><br><div id="vis-cntnt-\2" class="vis-off">'\
+        r'</div>', markdown)
 
 def yt_inserts(markdown):
     yt_toggle = re.compile('<!-- yt:(.*) -->', re.M)
