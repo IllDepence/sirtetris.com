@@ -46,6 +46,7 @@ Timeline |
 14/12/31 | 4000 words vocabulary
 15/01/27 | [1600 kanji](?a=3bb14cdc)
 15/03/13 | [1700 kanji](?a=d5605b67)
+15/04/18 | [1800 kanji](?a=bd733663)
 - - -
 # I tinker with tech!
 *Mostly in terms of software though.*
