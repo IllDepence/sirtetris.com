@@ -20,20 +20,24 @@
   shape-rendering: crispEdges;
   opacity: 0.5;
 }
-.words {
+.words, .wrate {
   stroke: #e04646 !important;
-  }
-.kanji {
+}
+.kanji, .krate {
   stroke: #0060ad !important;
-  }
+}
 .rate {
   stroke: #666 !important;
-  }
-.wordstext {
+}
+.wordstext, .wratetext {
   fill: #e04646;
-  }
-.kanjitext {
+}
+.kanjitext, .kratetext {
   fill: #0060ad;
-  }
+}
+.ratiotext {
+  fill: #666;
+}
 .secondary {
   opacity: 0.25;
+}

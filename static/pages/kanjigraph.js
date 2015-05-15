@@ -20,12 +20,30 @@ function loadd3(callback) {
     document.querySelector('head').appendChild(d3);
 }
 
+function toMonthEnds(dat) {
+    return dat; // TODO: using this function messes up mouseover effect
+    fd = document.firstDate;
+    ld = document.lastDate;
+    if (fd.getDate()==dat.getDate() && fd.getMonth()==dat.getMonth() &&
+        fd.getYear()==dat.getYear()) return dat;
+    if (ld.getDate()==dat.getDate() && ld.getMonth()==dat.getMonth() &&
+        ld.getYear()==dat.getYear()) return dat;
+    last = 0;
+    mnth = dat.getMonth()+1;
+    if ([1,3,5,7,8,10,12].indexOf(mnth) >= 0) last = 31;
+    if ([2,4,6,9,11].indexOf(mnth) >= 0) last = 30;
+    if (dat.getDate() > 15) { dat.setDate(last) }
+    else dat.setDate(1);
+    return dat;
+    }
+
 function refub(data) {
     return {
         date: parseDate(data[0]),
         kanji: data[1],
         words: data[2],
-        rate: data[3]
+        krate: data[3],
+        wrate: data[4]
         }
     }
 function parseData(rows) {
@@ -36,18 +54,23 @@ function show(data) {
     x.domain(d3.extent(data, function(d) { return d.date; }));
     var wmax = d3.max(data.map(function(data) { return +data.words }))
     var kmax = d3.max(data.map(function(data) { return +data.kanji }))
-    var rmax = d3.max(data.map(function(data) { return +data.rate }))
+    var krmax = d3.max(data.map(function(data) { return +data.krate }))
+    var wrmax = d3.max(data.map(function(data) { return +data.wrate }))
     y0.domain([0, wmax]);
-    y1.domain([0, rmax]);
+    y1.domain([0, wrmax]);
+    y2.domain([0, wrmax]);
     var kline = d3.svg.line()
                       .x(function(d) { return x(d.date); })
                       .y(function(d) { return y0(d.kanji); });
     var wline = d3.svg.line()
                       .x(function(d) { return x(d.date); })
                       .y(function(d) { return y0(d.words); });
-    var rline = d3.svg.line()
-                      .x(function(d) { return x(d.date); })
-                      .y(function(d) { return y1(d.rate); });
+    var krline = d3.svg.line()
+                      .x(function(d) { return x(toMonthEnds(d.date)); })
+                      .y(function(d) { return y1(d.krate); });
+    var wrline = d3.svg.line()
+                      .x(function(d) { return x(toMonthEnds(d.date)); })
+                      .y(function(d) { return y2(d.wrate); });
     svg.append('g')
        .attr('class', 'x axis')
        .attr('transform', 'translate(0,' + height + ')')
@@ -80,8 +103,13 @@ function show(data) {
         .attr('class', 'words')
         .attr('d', wline(data));
     line.append('path')
-        .attr('class', 'rate secondary')
-        .attr('d', rline(data));
+        .attr('class', 'krate secondary')
+        .style("stroke-dasharray", ("3, 3"))
+        .attr('d', krline(data));
+    line.append('path')
+        .attr('class', 'wrate secondary')
+        .style("stroke-dasharray", ("3, 3"))
+        .attr('d', wrline(data));
     var focus = svg.append('g')
                    .attr('class', 'focus')
                    .style('display', 'none');
@@ -104,11 +132,21 @@ function show(data) {
                   .attr('y', 32)
                   .attr('class', 'kanjitext')
                   .text('kanji: ' + kmax);
-    var valr = svg.append('text')
+    var valwr = svg.append('text')
                   .attr('x', 22)
                   .attr('y', 49)
-                  .attr('class', 'secondary')
+                  .attr('class', 'wratetext secondary')
+                  .text('words/month: -');
+    var valkr = svg.append('text')
+                  .attr('x', 22)
+                  .attr('y', 66)
+                  .attr('class', 'kratetext secondary')
                   .text('kanji/month: -');
+    var valwpk = svg.append('text')
+                  .attr('x', 22)
+                  .attr('y', 83)
+                  .attr('class', 'ratiotext secondary')
+                  .text('words/kanji: ' + (wmax/kmax).toFixed(2));
     svg.append('rect')
        .attr('class', 'overlay')
        .attr('width', width)
@@ -118,7 +156,9 @@ function show(data) {
        .on('mouseout', function() { focus.style('display', 'none');
                                     valw.text('words: ' + wmax);
                                     valk.text('kanji: ' + kmax);
-                                    valr.text('kanji/month: -'); });
+                                    valwr.text('words/month: -');
+                                    valkr.text('kanji/month: -');
+                                    valwpk.text('words/kanji: ' + (wmax/kmax).toFixed(2)); });
     dates = data.map(function(d) { return d.date });
     function mousemove() {
         var mx = d3.mouse(this)[0],
@@ -130,12 +170,14 @@ function show(data) {
         vlinek.attr('x1', mx)
               .attr('y1', y0(data[idx].kanji))
               .attr('y2', y0(data[idx].kanji));
-        valk.text('kanji: ' + data[idx].kanji);
         vlinew.attr('x1', mx)
               .attr('y1', y0(data[idx].words))
               .attr('y2', y0(data[idx].words));
+        valk.text('kanji: ' + data[idx].kanji);
         valw.text('words: ' + data[idx].words);
-        valr.text('kanji/month: ' + data[idx].rate);
+        valwr.text('words/month: ' + data[idx].wrate);
+        valkr.text('kanji/month: ' + data[idx].krate);
+        valwpk.text('words/kanji: ' + (data[idx].wrate/data[idx].krate).toFixed(2));
         }
     }
 
@@ -148,8 +190,10 @@ parseDate = d3.time.format('%y%m%d').parse;
 x = d3.time.scale()
           .range([0, width]);
 y0 = d3.scale.linear()      // kanji & vocab
-          .range([height, 0]);
+      .range([height, 0]);
 y1 = d3.scale.linear()      // kanji rate
+      .range([height, 0]);
+y2 = d3.scale.linear()      // word rate
           .range([height, 0]);
 color = d3.scale.category10();
 xAxis = d3.svg.axis()
@@ -177,31 +221,40 @@ d3.text('static/img/projects/kanji.dat', 'text/plain', function(text) {
     lines = text.split('\n');
     var currMonth = -1;
     var lastMonth = -1;
-    var monthDelta = -1;
+    var monthDeltaW = -1;
+    var monthDeltaH = -1;
     for(var i=0; i<lines.length; i++) {
         if(lines[i].length==0) continue;
         var parts = lines[i].split(' ');
         var date = parseDate(parts[0]);
         var kanji = parts[1];
         var words = parts[2];
+        if (i==0) document.firstDate = date;
+        else document.lastDate = date;
         getDeltaMonth = date.getMonth();
         if(getDeltaMonth == lastMonth) {
             }
         else {
+            /* kanji/month + words/month */
             currMonth = getDeltaMonth;
-            monthLow = kanji;
+            monthLowK = (i==0 ? 0 : kanji); // kanji/words
+            monthLowW = (i==0 ? 0 : words); // kanji/words
             for(var j=i; currMonth==getDeltaMonth; j++) {
                 if(typeof(lines[j])=='undefined') break;
                 if(lines[j].length==0) continue;
                 var tparts = lines[j].split(' ');
                 var tdate = parseDate(tparts[0]);
-                var tkanji = tparts[1];
+                var tkanji = tparts[1]; // 1/2
+                var twords = tparts[2]; // 1/2
                 currMonth = tdate.getMonth();
-                monthHigh = tkanji;
+                monthHighK = tkanji;
+                monthHighW = twords;
                 }
-            monthDelta = monthHigh-monthLow;
+            monthDeltaK = monthHighK-monthLowK;
+            monthDeltaW = monthHighW-monthLowW;
             }
-        parts.push(monthDelta)
+        parts.push(monthDeltaK)
+        parts.push(monthDeltaW)
         lines[i] = parts.join(' ');
         lastMonth = getDeltaMonth;
         }
