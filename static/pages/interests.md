@@ -8,7 +8,7 @@
 
 Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each assiciated with a group of things it's used for.
 
-On the other hand pronunciation is fairly easy and super consistent, grammar is totally manageable and there are awesome aspects like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
+On the other hand pronunciation is fairly easy and super consistent, grammar is totally manageable and there are awesome things like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
 
 #### Overview
 
@@ -44,22 +44,18 @@ On the other hand pronunciation is fairly easy and super consistent, grammar is 
 
 #### YouTube
 
+* [Tofugu](https://www.youtube.com/user/tofugu)
+* [Rachel & Jun](https://www.youtube.com/user/MyHusbandisJapanese)
 * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
 * [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
-* [Rachel & Jun](https://www.youtube.com/user/MyHusbandisJapanese)
 * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
+* [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
 * [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
-* [Tofugu](https://www.youtube.com/user/tofugu)
 * [Ryan Boundless](https://www.youtube.com/user/japanascope)
 * [BusanKevin](https://www.youtube.com/user/BusanKevin) / [jlandkev](https://www.youtube.com/user/jlandkev)
-* [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
-* [mimei](https://www.youtube.com/user/mimei)
-* [KemushiChan](https://www.youtube.com/user/kemushichan)
-* [YesJapan](https://www.youtube.com/user/yesjapan)
-* [TheJapanChannelDcom](https://www.youtube.com/user/TheJapanChannelDcom)
 * [Google Japan](https://www.youtube.com/user/googlejapan)
 * [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
-* [棚剣の実況ch](https://www.youtube.com/user/tanaken1712)
+* 実況プレイ： [棚剣の実況ch](https://www.youtube.com/user/tanaken1712) / [Lily](https://www.youtube.com/user/lily09337573/) / ...
 
 #### Misc
 
@@ -199,7 +195,7 @@ If you're lucky enough to be able to enjoy anime you're likely to be oversupplie
 Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.
 
 ### AMVs
-Best quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
+Quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
 
 Example AMVs:  
 <!-- ytdd:Externalize (Chihayafuru/mixed):09cyrQu5yVA -->
