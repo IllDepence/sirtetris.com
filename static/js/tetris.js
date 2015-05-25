@@ -1,5 +1,3 @@
-window.blockID = 0;
-
 function SingleBlock(x, y) {
     this.x = x;
     this.y = y;
@@ -313,6 +311,7 @@ function spawnRandomPiece() {
 
 function tick() {
     var now = Math.floor(new Date().getTime()/1000);
+    /* spawn a new piece */
     if(window.pieceCount == 0) {
         window.livePieces.push(spawnRandomPiece());
         window.pieceCount++;
@@ -322,6 +321,7 @@ function tick() {
         var p = window.livePieces[i];
         p.live();
         }
+    /* game over */
     for (var i=0; i<window.deadBlocks.length; i++) {
         if (window.deadBlocks[i].y <= 0) {
             clearInterval(window.tetIntvID);
@@ -329,8 +329,11 @@ function tick() {
         }
     }
 
+window.blockID = 0;
+window.pieceCount = 0;
 window.livePieces = [];
 window.deadBlocks = [];
-window.lastSpawn = Math.floor(new Date().getTime()/1000)-29;
-window.pieceCount = 0;
-window.tetIntvID = window.setInterval(function(){tick()}, 500);
+
+if (window.location.href.indexOf('?') == -1) {
+    window.tetIntvID = window.setInterval(function(){tick()}, 500);
+    }

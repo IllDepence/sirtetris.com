@@ -106,9 +106,9 @@ overflow: hidden;
 
 #headbox {
 height: 200px;
-background-image:url('../img/site/head0.jpg'), url('../img/site/head1.jpg');
-background-repeat:no-repeat, repeat-x;
-background-position:right top, right 1250px top;
+background-image: url('../img/site/head0.jpg'), url('../img/site/head1.jpg');
+background-repeat: no-repeat, repeat-x;
+background-position: right top, 98px top;
 }
 
 #innerheadbox {
