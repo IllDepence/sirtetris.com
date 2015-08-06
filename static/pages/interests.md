@@ -128,7 +128,7 @@ In order to organize information I use [gitit](http://gitit.net/). Reasons: Mark
 #### Misc
 * GitHub for code and configs
 * Kindle instead of analog books for mobility
-* <s>[HabitRPG](https://habitrpg.com/)</s> tried it, didn't work out for me
+* [HabitRPG](https://habitrpg.com/) <s>tried it, didn't work out for me</s> giving it a second try at the moment
 - - -
 # Mechanical keyboards<span id="keyboards"></span>
 *High quality input devices. :3*
@@ -182,7 +182,7 @@ I myself never did serious speedrunning. Further down some casual (and old) stuf
 <!-- ytdd:Hazard Course done in 3&colon;23min:2gG5PCDWQJ4 -->
 - - -
 # Anime<span id="anime"></span>
-*Evidence that Japanese animators are reaching for the moon, while most of their American counterpart remain stuck in the kiddie sandbox.* ([Source](https://www.youtube.com/watch?v=yn7U1KIGeuQ))
+*“Evidence that Japanese animators are reaching for the moon, while most of their American counterpart remain stuck in the kiddie sandbox.“* ([Source](https://www.youtube.com/watch?v=yn7U1KIGeuQ))
 
 ![](static/img/interests/anime.jpg)
 
@@ -218,6 +218,7 @@ Example AMVs:
 # Misc<span id="misc"></span>
 Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.
 
+* [freestyle slalom](https://youtu.be/0289Ome76Qg)
 * cinematography (as in [I watch movies](static/dl/movies))
 * flourishing ([2009](static/img/interests/flourishing.gif))
 * it security
