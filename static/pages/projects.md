@@ -5,15 +5,29 @@
 
 I started off with three beginner level Japanese courses offered by the language center at my uni. Once they were over I continued learning on my own.
 <div class="hr"></div>
-### Progress<span id="jp-progress"></span>
+## &gt; Stage 2: explore the country
+##### <br>
+### Progress<span id="jp-ex-progress"></span>
 ‌  
-<div id="graph"><img src="static/img/projects/kanjistats.png" alt="kanjistats.png" /></div>
-(plotted using [this script](https://github.com/IllDepence/kanjiplot))
-<div class="hr"></div>
+![](static/img/projects/explore_jp_0.jpg)
+‌  
 
 Timeline |
 :-------:|:-
-13/03/27 | started taking three beginner level courses offered by the language center at my university</td>
+15/09/09 | layover in 大阪, arrival in 愛媛
+
+<div class="hr"></div>
+
+## &gt; Stage 1: learn the language
+##### <br>
+### Progress<span id="jp-progress"></span>
+‌  
+<div id="graph"><img src="static/img/projects/kanjistats.png" alt="kanjistats.png" /></div>
+(plotted using [this script](https://github.com/IllDepence/kanjiplot))<br><br>
+
+Timeline |
+:-------:|:-
+13/03/27 | started taking three beginner level courses offered by the language center at my university
 13/04/14 | started posting on [Lang 8](http://lang-8.com/588644/)
 13/05/21 | started learning kanji with [Anki](http://ankisrs.net/)
 13/06/18 | [100 kanji](?a=e61bc488)

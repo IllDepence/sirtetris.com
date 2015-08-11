@@ -49,6 +49,7 @@ On the other hand pronunciation is fairly easy and super consistent, grammar is 
 * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
 * [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
 * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
+* [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
 * [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
 * [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
 * [Ryan Boundless](https://www.youtube.com/user/japanascope)
@@ -59,6 +60,7 @@ On the other hand pronunciation is fairly easy and super consistent, grammar is 
 
 #### Misc
 
+* [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)
 * [GNU Unifont](http://unifoundry.com/unifont.html) (useful for graphemes/radicals)
 * [Kana Invaders](http://learnjapanesepod.com/kana-invaders/)
 * [Japanese TV](http://www.fengyunzhibo.com/space/japan.htm)
@@ -166,7 +168,7 @@ Further places to look for interesting content include [TOOOL](http://toool.us/)
 
 ![](static/img/interests/agdq.jpg)
 
-Concerning what I know about speedruns the place to go is the [Speed Demos Archive](http://speeddemosarchive.com/). If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:  
+Concerning what I know about speedruns the places to go are the [Speed Demos Archive](http://speeddemosarchive.com/) and [Speed&shy;Runs&shy;Live](http://www.speedrunslive.com/). If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:  
 <!-- ytdd:Portal Done Pro:W1U5RUVENNE -->
 
 *and* the [Portal Done Pro - Commentary Video](https://www.youtube.com/playlist?list=PL359B764A0A3B8188). Note that this run does not comply with the rules of SDA and is not listed there. Nonetheless does it give a nice impression of what speedrunning means. A very entertaining way to learn a bit more about speedruns can be following one of SDA's [marathons](http://marathon.speeddemosarchive.com/), where a group of speedrunners plays through a ton of games in a few days. Most of them comment on what they are doing while playing, so you get an insight on what the key techniques are for running a particular game.
@@ -189,7 +191,7 @@ I myself never did serious speedrunning. Further down some casual (and old) stuf
 If you're lucky enough to be able to enjoy anime you're likely to be oversupplied with amazing series and movies for like ... ever.
 
 ### Web
-[Digital Nippon](http://digitalnippon.de/) (German), [AL](http://anilist.co/)/[HB](http://hummingbird.me/)/[MAL](http://myanimelist.net/), [AniDB](http://anidb.net/), [zerochan](http://www.zerochan.net/), [pivix](http://www.pixiv.net), ...
+[AL](http://anilist.co/)/[HB](http://hummingbird.me/)/[MAL](http://myanimelist.net/)/[Annict](http://www.annict.com/), [AniDB](http://anidb.net/), [zerochan](http://www.zerochan.net/), [pivix](http://www.pixiv.net), [Digital Nippon](http://digitalnippon.de/) ...
 
 ### Recommentations
 Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.
