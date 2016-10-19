@@ -1,14 +1,17 @@
 # Context
 *The world is full of interesting things to be discovered, learned, practiced. As one searches for new input, advice from others already into a specific matter can be of great help. Therefore I'd like to share what keeps me moving, learning, living and offer hints and resources for the potentially interested.*
 - - -
-# Japanese language<span id="japanese"></span>
-*日本語はとても凄いですよ！　ヽ(\*・ω・)ﾉ*
+# Japanese<span id="japanese"></span>
+*orz*
 
 ![](static/img/interests/jp.jpg)
 
-Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each assiciated with a group of things it's used for.
+Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each associated with a group of things it's used for.
 
 On the other hand pronunciation is fairly easy and super consistent, grammar is totally manageable and there are awesome things like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
+
+Appetizer: [Japanese Language and Literature - Wes Cecil](https://www.youtube.com/watch?v=YecXCUULnEM)  
+“I mean, modern Japanese is impossible. Ancient Japanese is ... that's just ... it's just *wrongly difficult*.”  
 
 #### Overview
 
@@ -25,7 +28,7 @@ On the other hand pronunciation is fairly easy and super consistent, grammar is 
 * [TextFugu](http://www.textfugu.com/) (free *only* up to the point where you'd start learning kanji)
 * [Tofugu's writings on learning](http://www.tofugu.com/tag/learning/)
 
-#### Tools
+#### Use
 
 * [Lang-8](http://lang-8.com/) (corrections from native speakers)
 * [Anki](http://ankisrs.net/") ([SRS](https://en.wikipedia.org/wiki/Spaced_repetition) with synchronization)
@@ -33,43 +36,56 @@ On the other hand pronunciation is fairly easy and super consistent, grammar is 
     * [Script for plotting the number of kanji in an Anki deck over time](https://github.com/IllDepence/kanjiplot)
     * [Script for finding new useful vocab based on frequency lists](https://github.com/IllDepence/findvocab)
 * [News in Slow Japanese](http://newsinslowjapanese.com/home/) (listening practice)
-* [Multi-Radical Kanji Search](http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R)
-* more [Multi-Radical Kanji Search](http://en-to.jp/)
-* Kanji dictionaries: [Tagaini Jisho](http://www.tagaini.net/), [tangorin](http://tangorin.com/), [Denshi Jisho](http://jisho.org/)
+* Dictionaries: [Tagaini Jisho](http://www.tagaini.net/), [WWWJDIC](http://nihongo.monash.edu/cgi-bin/wwwjdic), [tangorin](http://tangorin.com/), [Denshi Jisho](http://jisho.org/)
 * Browser dictionary plugin for [Firefox](http://rikaichan.mozdev.org/) and [Chrome](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
 * [Example sentences](http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none)
 * [KanjiTomo](http://www.kanjitomo.net/) (identify Japanese characters from images)
 * [JLPT kanji check](http://moc.sirtetris.com/jlptkanjicheck/)
+* [KanjiSheets](http://kanjisheets.com/) (custom Kanji practice sheets)
 * [minimum font size for Japanese text](http://moc.sirtetris.com/enlargeJapanese.user.js) (user script)
-
-#### YouTube
-
-* [Tofugu](https://www.youtube.com/user/tofugu)
-* [Rachel & Jun](https://www.youtube.com/user/MyHusbandisJapanese)
-* [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
-* [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
-* [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
-* [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
-* [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
-* [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
-* [Ryan Boundless](https://www.youtube.com/user/japanascope)
-* [BusanKevin](https://www.youtube.com/user/BusanKevin) / [jlandkev](https://www.youtube.com/user/jlandkev)
-* [Google Japan](https://www.youtube.com/user/googlejapan)
-* [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
-* 実況プレイ： [棚剣の実況ch](https://www.youtube.com/user/tanaken1712) / [Lily](https://www.youtube.com/user/lily09337573/) / ...
-
-#### Misc
-
-* [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)
 * [GNU Unifont](http://unifoundry.com/unifont.html) (useful for graphemes/radicals)
 * [Kana Invaders](http://learnjapanesepod.com/kana-invaders/)
-* [Japanese TV](http://www.fengyunzhibo.com/space/japan.htm)
-* [Kana input without IM](?a=079cf21f) (Linux/BSD)
-* [Kanji handwriting with a graphic tablet](http://youtu.be/pFyKE5zPDQM)
 * Wallpaper for [dates](static/img/interests/dates_anime.png), [time](static/img/interests/time_anime.png), [timespans](static/img/interests/timespans_anime.png), [casual grammar](static/img/interests/casuals_anime.png), [indefinite pronouns](static/img/interests/indefinite_pronouns_anime.png)  
+* [Kana input without IM](?a=079cf21f) (Linux/BSD)
+
+#### Absorb
+
+* About Japan
+    * [Tofugu](https://www.youtube.com/user/tofugu)
+    * [Rachel & Jun](https://www.youtube.com/user/MyHusbandisJapanese)
+    * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
+    * [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
+    * [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
+    * [Ryan Boundless](https://www.youtube.com/user/japanascope)
+    * [BusanKevin](https://www.youtube.com/user/BusanKevin) / [jlandkev](https://www.youtube.com/user/jlandkev)
+    * [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
+* In Japanese
+    * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
+    * [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
+    * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec)
+    * [無駄づくり MUDAZUKURI -Wasted Creation-](https://www.youtube.com/user/mudadukuri)
+    * [木下ゆうか Yuka Kinoshita](https://www.youtube.com/user/kinoyuu0204)
+    * [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
+    * [Google Japan](https://www.youtube.com/user/googlejapan)
+    * [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)
+
+### Interact
+
+* [Yahoo!知恵袋](http://chiebukuro.yahoo.co.jp/dir/dir_list.php)
 
 ‌  
 My personal Japanese progress has it's own place in the [projects section](?c=projects).
+- - -
+# Parkour<span id="parkour"></span>
+*“Recontextualizing public urban space as a playground instead of something merely functional.“* ([Source](https://soundcloud.com/officialsxsw/hacking-language-bots-if-and-esolangs-sxsw-interactive-2016))
+
+![](static/img/interests/parkour.jpg)
+
+Just look for people in your area doing parkour. In [my experience](?a=5fd38d56) such groups are extremely supportive towards newcomers. If you can't find anyone to train with, start on your own — you might [find followers](static/img/interests/parkour2.jpg) soon. :D
+
+To get an idea of what parkour is, watch [People in Motion](https://www.youtube.com/watch?v=QH09YCtpKaw). tl;dw: it's playing with one's environment by moving around.
+
+Side note: I like [double kongs](static/img/interests/parkour.gif).
 - - -
 # かるた<span id="karuta"></span>
 *難波津に…*
@@ -153,9 +169,9 @@ In short, it is the exploration of man-made stuff. Objects of interest vary as m
 <div class="imgdropdown"><strong>2008 &gt; trains</strong>
 <img src="static/img/interests/08_i_like_trains.png" alt="08_i_like_trains.png" /></div>
 <div class="imgdropdown"><strong>2011 &gt; more trains</strong>
-<a href="static/img/interests/11_i_like_trains_full.png" title="fullsize"><img src="static/img/interests/11_i_like_trains.png" alt="11_i_like_trains.png" /></a></div>
+<a href="static/img/interests/11_i_like_trains_full.jpg" title="fullsize"><img src="static/img/interests/11_i_like_trains.png" alt="11_i_like_trains.png" /></a></div>
 <div class="imgdropdown"><strong>2012 &gt; gravel plant</strong>
-<a href="static/img/interests/12_gravel_plant_full.png" title="fullsize"><img src="static/img/interests/12_gravel_plant.png" alt="12_gravel_plant.png" /></a></div>
+<a href="static/img/interests/12_gravel_plant_full.jpg" title="fullsize"><img src="static/img/interests/12_gravel_plant.png" alt="12_gravel_plant.png" /></a></div>
 - - -
 # Lock picking<span id="lockpicking"></span>
 *Locks are meant to keep honest people honest.*
@@ -194,25 +210,31 @@ If you're lucky enough to be able to enjoy anime you're likely to be oversupplie
 [AL](http://anilist.co/)/[HB](http://hummingbird.me/)/[MAL](http://myanimelist.net/)/[Annict](http://www.annict.com/), [AniDB](http://anidb.net/), [zerochan](http://www.zerochan.net/), [pivix](http://www.pixiv.net), [Digital Nippon](http://digitalnippon.de/) ...
 
 ### Recommentations
-Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.
+Works of Hayao Miyazaki and Satoshi Kon, Akira, Ghost in the Shell, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari, Mononoke.
 
 ### AMVs
 Quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
 
 Example AMVs:  
-<!-- ytdd:Externalize (Chihayafuru/mixed):09cyrQu5yVA -->
-<!-- ytdd:Title Goes Here (Bakemonogatari):RtjtNrnj4HM -->
-<!-- ytdd:The Strike Witches 2.0 (Strike Witches):c4cZHkCk_Zo -->
-<!-- ytdd:Beautiful Moments (mixed):cKOowKsBVeI -->
-<!-- ytdd:Affective Schoolgirls (Nichijou):2uHRi67mlsc -->
-<!-- ytdd:Binary Overdrive (Genius Party Beyond - Dimension Bomb):QwMSemZX81U -->
-<!-- ytdd:Distant Echo (mixed):nVMPiEilNm4 -->
-<!-- ytdd:Futuristic Lover (Bakemonogatari):iPoH19FuUJQ -->
-<!-- ytdd:Race Against Time Trailer (Dragonball Z):sgeXlq1jvVY -->
-<!-- ytdd:This Is Halloween (Soul Eater):i_zYrYkbrGY -->
-<!-- ytdd:Gun Smoke (Soul Eater):f3dQ8ZxG5dw -->
-<!-- ytdd:Mahou Shoujo Requiem (Mahou Shoujo Madoka Magica):4Q9wGu3ILeo -->
-<!-- ytdd:The Nightmagi Cometh (Mahou Shoujo Madoka Magica):JiKxNI7_5dc -->
+
+
+Creator | Title | Anime | Download | YouTube
+:-|:-|:-|:-:|:-:
+Hagaren Viper | This Is Halloween | Soul Eater | [💾](http://www.animemusicvideos.org/members/members_videoinfo.php?v=172517) | [▶](https://www.youtube.com/watch?v=i_zYrYkbrGY)
+Gorz | Beauty And A Glitch | Fate/stay night: UBW | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=6610) | [▶](https://www.youtube.com/watch?v=0pRJJhAjosc)
+Shin | Nefarium Psychologica | Mahou Shoujo Madoka Magica | [💾](http://www.akross.ru/index.cgi?act=video;id=4405) | [▶](https://www.youtube.com/watch?v=EJ-dnuFItAE)
+Shin | Mahou Shoujo Requiem | Mahou Shoujo Madoka Magica | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=3445) | [▶](https://www.youtube.com/watch?v=4Q9wGu3ILeo)
+Kisanzi | The Nightmagi Cometh | Mahou Shoujo Madoka Magica | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4955) | [▶](https://www.youtube.com/watch?v=JiKxNI7_5dc)
+RenaSun | Externalize | Chihayafuru/mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=5072) | [▶](https://www.youtube.com/watch?v=09cyrQu5yVA)
+lokkiclu | Title Goes Here | Bakemonogatari | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4902) | [▶](https://www.youtube.com/watch?v=RtjtNrnj4HM)
+Okami | Futuristic Lover | Bakemonogatari | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=3281) | [▶](https://www.youtube.com/watch?v=iPoH19FuUJQ)
+Nostromo | Binary Overdrive | Genius Party Beyond | [💾](http://www.nostro.fr/amv-binary-overdrive/) | [▶](https://www.youtube.com/watch?v=QwMSemZX81U)
+Nostromo | Distant Echo | mixed | [💾](http://www.nostro.fr/amv-distance-mep/) | [▶](https://www.youtube.com/watch?v=nVMPiEilNm4)
+EvilSpiritAMV | Visible | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=5430) | [▶](https://www.youtube.com/watch?v=wpGZMTa2b7k)
+seriy | Affective Schoolgirls | Nichijou | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4569) | [▶](https://www.youtube.com/watch?v=2uHRi67mlsc)
+007 Vegita | Race Against Time Trailer | Dragonball Z | [💾](http://www.video-game-chat.com/dbzsc/) | [▶](https://www.youtube.com/watch?v=sgeXlq1jvVY)
+Umika, ZEVS1993 | Our Tapes | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4470) | [▶](https://www.youtube.com/watch?v=Z6IL_YVNBDQ)
+
 <!--<br />
 <h3>Elfen Lied</h3>
 <p>The first thing I watched after re-discovering anime was Elfen Lied. As I was blown away I became kind of obsessed with it and collected loads of information and fan art. Since this could be of some use to others I'll just <a href="?c=el">leave this here</a>.</p>-->
@@ -220,19 +242,20 @@ Example AMVs:
 # Misc<span id="misc"></span>
 Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.
 
-* [freestyle slalom](https://youtu.be/0289Ome76Qg)
-* cinematography (as in [I watch movies](static/dl/movies))
-* flourishing ([2009](static/img/interests/flourishing.gif))
-* it security
 * linux
-* open source
-* [parkour](static/img/interests/parkour.gif) (not only indoors ofc)
-* photography (as in [I own a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg))
-* psychology (took a class in WS 13/14)
-* physical security (see [lock picking](#lockpicking))
-* social engineering (psychology, physical security, it security, ...)
+* free and open-source
+* it security
+* tabletop games
+* photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a system camera after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
 * slacklining
+* geocaching
+* cinematography (as in [I watch movies](static/dl/movies))
+* physical security (see [lock picking](#lockpicking))
+* psychology (took a class in WS 13/14)
+* social engineering (psychology, physical security, it security, ...)
+* flourishing ([2009](static/img/interests/flourishing.gif))
+* [freestyle slalom](https://youtu.be/0289Ome76Qg)
 * tricking
 * typography
 - - -
@@ -240,7 +263,8 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 <!-- custom --><div class="innercontent_r" style="position: fixed !important; top: 235px !important; left: 50% !important; margin-left: 267px !important;">
     <h2>Nav</h2>
     <ul>
-        <li><a href="#japanese">Japanese language</a></li>
+        <li><a href="#japanese">Japanese</a></li>
+        <li><a href="#parkour">Parkour</a></li>
         <li><a href="#karuta">かるた</a></li>
         <li><a href="#penspinning">Penspinning</a></li>
         <li><a href="#management">Self-management</a></li>

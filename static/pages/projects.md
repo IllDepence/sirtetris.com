@@ -5,20 +5,7 @@
 
 I started off with three beginner level Japanese courses offered by the language center at my uni. Once they were over I continued learning on my own.
 <div class="hr"></div>
-## &gt; Stage 2: explore the country
-##### <br>
-### Progress<span id="jp-ex-progress"></span>
-‌  
-![](static/img/projects/explore_jp_0.jpg)
-‌  
-
-Timeline |
-:-------:|:-
-15/09/09 | layover in 大阪, arrival in 愛媛
-
-<div class="hr"></div>
-
-## &gt; Stage 1: learn the language
+## &gt; Main quest: learn the language
 ##### <br>
 ### Progress<span id="jp-progress"></span>
 ‌  
@@ -62,6 +49,33 @@ Timeline |
 15/03/13 | [1700 kanji](?a=d5605b67)
 15/04/18 | [1800 kanji](?a=bd733663), ended focussed pursuit of learning new kanji
 15/07/15 | 5000 vocabulary words
+15/08/11 | [1900 kanji](?a=ceb039a3)
+15/09/24 | start of 2 classes at 松山大学 and 2 at 愛媛大学
+16/04/11 | start of 1 class at 松山大学 and 3 at 愛媛大学
+16/07/03 | took the JLPT N2 (result: 140/180)
+16/09/15 | started [transcribing videos](http://moc.sirtetris.com/字幕挑戦投稿/)
+
+<div class="hr"></div>
+## &gt; Side quest: explore the country
+##### <br>
+### Progress<span id="jp-ex-progress"></span>
+‌  
+![](static/img/projects/explore_jp_7.jpg)
+‌  
+
+Timeline |
+:-------:|:-
+15/09/08 | half a day in 大阪 — airports
+15/09/09 | flight to 愛媛 — new basis of operations
+15/10/17 | bus tour to 高知
+15/11/28 | two day trip to 広島
+16/03/02 | train trip to 大阪 along 香川, 岡山, 兵庫
+16/03/04 | train trip to 名古屋 along 京都, 滋賀, 岐阜
+16/03/06 | train trip to 東京 along 静岡, 神奈川
+16/03/10 | train trip to 京都
+16/08/08 | a night in a mountain hut on 富士山 (静岡)
+16/08/11 | a night in 藤沢 (神奈川)
+
 - - -
 # I tinker with tech!
 *Mostly in terms of software though.*

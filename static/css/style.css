@@ -303,12 +303,31 @@ div.imgdropdown:hover {
 height: 100%;
 }
 
+#inb4mail, #inb4mail2 {
+font-family: monospace;
+padding: 2px;
+background-color: #dedede;
+font-size: 11px;
+}
+
+pre > code {
+color: #eeeeee;
+}
+
 #inb4mail:after {
 content: "\0040\0067\006D\0061\0069\006C\002E\0063\006F\006D";
 }
 
 #inb4mail:before {
 content: "\0074\0061\0072\0065\006B\0073\0061\0069\0065\0072";
+}
+
+#inb4mail2:after {
+content: "\006F\006E\006D\0061\0069\006C\002E\0063\006F\006D";
+}
+
+#inb4mail2:before {
+content: "\0073\0061\0069\0065\0072\0040\0070\0072\006F\0074";
 }
 
 span.a {

@@ -1,8 +1,7 @@
-<!-- custom --><div class="innercontent_l" style="background-image: url('static/img/person/120616-the_fuck_is_this.jpg'); height: 500px;">
-    <div style="padding: 110px 100px">
-        <h1>gggggg⛷</h1>
-        <p>ggggggg<br>
-        ggg</p>
+<!-- custom --><div class="innercontent_l" style="background-image: url('static/img/person/151023-matsudai.jpg'); height: 482px;">
+    <div style="padding: 110px 500px">
+        <p style="font-size:25px;" title="just making sure you don't take me too seriously">U+1F959</p>
+        <p style="font-size:25px;" title="just making sure you don't take me too seriously">ggggg</p>
     </div>
 </div>
 - - -
