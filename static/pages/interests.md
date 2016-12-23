@@ -87,15 +87,14 @@ To get an idea of what parkour is, watch [People in Motion](https://www.youtube.
 
 Side note: I like [double kongs](static/img/interests/parkour.gif).
 - - -
-# かるた<span id="karuta"></span>
+# Karuta<span id="karuta"></span>
 *難波津に…*
 
 ![](static/img/interests/karuta.jpg)
 
-「かるた」 ([karuta](http://en.wikipedia.org/wiki/Karuta)) is a Japanese loanword originally from Portuguese (“carta”) and a term used to describe several types of Japanese card games. A particularly interesting group of which is called 歌がるた and often based on the poem collection 小倉百人一首 ([Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu)) by 藤原 定家 ([Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika)).  
-競技かるた ([kyōgi karuta](http://en.wikipedia.org/wiki/Competitive_karuta)) is the competitive version of 歌がるた.
+[Karuta](http://en.wikipedia.org/wiki/Karuta) is a Japanese loanword originally from Portuguese (“carta”) and a term used to describe several types of Japanese card games. A particularly interesting group of which is called uta-garuta and often based on the poem collection [Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu) by [Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika). [Kyōgi karuta](http://en.wikipedia.org/wiki/Competitive_karuta) is the competitive version of uta-garuta.
 
-If you want to get an overview of かるた-type games and more detailed information feel free to have a look at [this info page](http://moc.sirtetris.com/karuta/) I created. A brief peak into kyōgi karuta right here:
+If you want to get an overview of karuta-type games and more detailed information feel free to have a look at [this info page](http://moc.sirtetris.com/karuta/) I created. A brief peak into kyōgi karuta right here:
 
 An English version of the rules of kyōgi karuta can be found [here](http://karuta.game.coocan.jp/simplerule-e.html). Further useful resources:
 
@@ -103,9 +102,8 @@ An English version of the rules of kyōgi karuta can be found [here](http://karu
 * [World of Kyogi Karuta](http://karuta.game.coocan.jp/index.html)
 * [Hyakunin Isshu overview with english translations](http://etext.virginia.edu/japanese/hyakunin/index.html)
 
-To get an idea of how kyōgi karuta is played, watch one of the following videos:
-<!-- ytdd:Explanatory karuta match with English commentary:nKAmZxVhQww -->
-<!-- ytdd:Recording of a karuta match with visual aids and slow motion replays:BiID7_0aqsc -->
+To get an idea of how kyōgi karuta looks like:  
+<!-- ytdd:Highlights from the 2014 championship final:HUbXBcD2m6E -->
 
 Even more goodies:
 
@@ -123,7 +121,9 @@ A fun way to learn more about the world of karuta would be reading the manga [Ch
 Getting into penspinning is quite easy. You grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.  
 It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the [UPSB](http://upsb.info/), I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)
 
-After I started penspinning in 2007 I actively did it — meaning I really took my time to practice, looked out for new tricks to learn, etc. — for maybe a year and a half. Since then I only do it casually, barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)
+Here's some viewing material: [Supawit](https://www.youtube.com/watch?v=Ug_D_jyOOmE), [pyralux](https://www.youtube.com/watch?v=2EGFq-jvhFc), [A13x](https://www.youtube.com/watch?v=5jaRrtGVc3A)
+
+I, personally, started penspinning in 2007 and actively pursued it — i.e. took my time to practice, look out for new tricks to learn, etc. — for maybe a year and a half. After that it's been casual ever since. I barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)
 
 **Some of my recordings**  
 <!-- ytdd:BakFall Session 3:DHDyYK-nPIA -->
@@ -146,7 +146,7 @@ In order to organize information I use [gitit](http://gitit.net/). Reasons: Mark
 #### Misc
 * GitHub for code and configs
 * Kindle instead of analog books for mobility
-* [HabitRPG](https://habitrpg.com/) <s>tried it, didn't work out for me</s> giving it a second try at the moment
+* <s>[HabitRPG](https://habitrpg.com/)</s> stopped using it after a few months once the novelty factor wore off
 - - -
 # Mechanical keyboards<span id="keyboards"></span>
 *High quality input devices. :3*
@@ -186,7 +186,6 @@ Further places to look for interesting content include [TOOOL](http://toool.us/)
 
 Concerning what I know about speedruns the places to go are the [Speed Demos Archive](http://speeddemosarchive.com/) and [Speed&shy;Runs&shy;Live](http://www.speedrunslive.com/). If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:  
 <!-- ytdd:Portal Done Pro:W1U5RUVENNE -->
-
 *and* the [Portal Done Pro - Commentary Video](https://www.youtube.com/playlist?list=PL359B764A0A3B8188). Note that this run does not comply with the rules of SDA and is not listed there. Nonetheless does it give a nice impression of what speedrunning means. A very entertaining way to learn a bit more about speedruns can be following one of SDA's [marathons](http://marathon.speeddemosarchive.com/), where a group of speedrunners plays through a ton of games in a few days. Most of them comment on what they are doing while playing, so you get an insight on what the key techniques are for running a particular game.
 
 As opposed to speedruns gathered at SDA there are also runs called TAS, tool-assisted speedruns. I don't know a lot about them, but I guess [TASVideos](http://tasvideos.org/) is a good resource to start with.
@@ -230,29 +229,40 @@ lokkiclu | Title Goes Here | Bakemonogatari | [💾](http://amvnews.ru/index.php
 Okami | Futuristic Lover | Bakemonogatari | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=3281) | [▶](https://www.youtube.com/watch?v=iPoH19FuUJQ)
 Nostromo | Binary Overdrive | Genius Party Beyond | [💾](http://www.nostro.fr/amv-binary-overdrive/) | [▶](https://www.youtube.com/watch?v=QwMSemZX81U)
 Nostromo | Distant Echo | mixed | [💾](http://www.nostro.fr/amv-distance-mep/) | [▶](https://www.youtube.com/watch?v=nVMPiEilNm4)
-EvilSpiritAMV | Visible | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=5430) | [▶](https://www.youtube.com/watch?v=wpGZMTa2b7k)
+EvilSpiritAMV | Visible | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=5430) | [▶](https://www.youtube.com/watch?v=ZdQzpWOqBX8)
 seriy | Affective Schoolgirls | Nichijou | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4569) | [▶](https://www.youtube.com/watch?v=2uHRi67mlsc)
 007 Vegita | Race Against Time Trailer | Dragonball Z | [💾](http://www.video-game-chat.com/dbzsc/) | [▶](https://www.youtube.com/watch?v=sgeXlq1jvVY)
 Umika, ZEVS1993 | Our Tapes | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4470) | [▶](https://www.youtube.com/watch?v=Z6IL_YVNBDQ)
+
+‌
+
+### Doujinshi
+More a manga than an anime thing, really, but nevertheless worth highlighting — especially for western audiences. Because it's nice to see a healthy, living remix culture that is not being held back by ignorant backfiring corporate efforts. (While we're at it, watch [Everything is a Remix](https://vimeo.com/139094998).)
+
+“Doujinshi is [...] like celebration, an ongoing fan party. [...] in America, grumpy rights holding companies shut down the party by calling the cops. In Japan, companies let the music play because they realize the party's in their honor.” — [Tofugu](https://www.tofugu.com/japan/doujinshi-definition/)
+
+Also: [Copyright and Comics in Japan: Does Law Explain Why All the Cartoons My Kid Watches are Japanese Imports?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=347620)
 
 <!--<br />
 <h3>Elfen Lied</h3>
 <p>The first thing I watched after re-discovering anime was Elfen Lied. As I was blown away I became kind of obsessed with it and collected loads of information and fan art. Since this could be of some use to others I'll just <a href="?c=el">leave this here</a>.</p>-->
 - - -
-# Misc<span id="misc"></span>
+# MOAR<span id="MOAR"></span>
 Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.
 
 * linux
 * free and open-source
 * it security
 * tabletop games
+* sharing economy, collaborative consumption, crowdsourcing
+* i18n/l10n
 * photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a system camera after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
 * slacklining
 * geocaching
 * cinematography (as in [I watch movies](static/dl/movies))
 * physical security (see [lock picking](#lockpicking))
-* psychology (took a class in WS 13/14)
+* psychology (introductory class in 2013/14; social psy. + work and organizational psy. in 2016/17)
 * social engineering (psychology, physical security, it security, ...)
 * flourishing ([2009](static/img/interests/flourishing.gif))
 * [freestyle slalom](https://youtu.be/0289Ome76Qg)
@@ -265,7 +275,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
     <ul>
         <li><a href="#japanese">Japanese</a></li>
         <li><a href="#parkour">Parkour</a></li>
-        <li><a href="#karuta">かるた</a></li>
+        <li><a href="#karuta">Karuta</a></li>
         <li><a href="#penspinning">Penspinning</a></li>
         <li><a href="#management">Self-management</a></li>
         <li><a href="#keyboards">Mechanical keyboards</a></li>
@@ -273,6 +283,6 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
         <li><a href="#lockpicking">Lock picking</a></li>
         <li><a href="#speedrunning">Speedrunning</a></li>
         <li><a href="#anime">Anime</a></li>
-        <li><a href="#misc">Misc</a></li>
+        <li><a href="#MOAR">MOAR</a></li>
     </ul>
 </div>

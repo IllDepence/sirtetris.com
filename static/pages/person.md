@@ -8,6 +8,7 @@
 - - -
 ## Web
 * [GitHub](https://github.com/IllDepence/)
+* [Wikipedia](https://en.wikipedia.org/wiki/User:IllDepence)
 * [Twitter](http://www.twitter.com/IllDepence)
 - - -
 ## Others
