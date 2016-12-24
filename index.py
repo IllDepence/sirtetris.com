@@ -12,7 +12,7 @@ import os
 import re
 import sys
 
-HOME_DIR = '/homez.151/sirtetri/www/'
+HOME_DIR = '/home/sirtetri/www/'
 #HOME_DIR = '/usr/share/nginx/html/tarek/sirtetris/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
@@ -140,7 +140,7 @@ def blog_entries(postget):
 
 env = Environment(loader=FileSystemLoader('static/templates'))
 postget = cgi.FieldStorage()
-if not 'c' in postget and not 'a' in postget and not 'p' in postget:
+if not 'c' in postget and not 'a' in postget and not 'p' in postget and not 't' in postget:
     page = 'def'
 elif not 'c' in postget:
     page = 'blog'
@@ -178,5 +178,5 @@ else:
 
 unicode_page = template.render(navitems=navitems, left=left, right=right,
                                 fill=fill, subtitle=page)
-print 'Content-Type: text/html\n\n'
+print 'Content-Type: text/html\r\n'
 print unicode_page.encode('utf-8')
