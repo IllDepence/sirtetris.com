@@ -4,8 +4,8 @@
 {% if image|length > 0 %}
 <div class="imgfloat{{ image_side }}">
 <img src="static/img/blog/{{ image  }}">
-{% if image_source|length > 0 %}
-<div class="imgsrc"><p><a href="{{ image_source }}">source</a></p></div>
+{% if image_sources|length > 0 %}
+<div class="imgsrc"><p>{% for source in image_sources %}{% if loop.index > 1 %},&nbsp;{% endif %}<a href="{{ source }}">source</a>{% endfor %}</p></div>
 {% endif %}
 </div>
 {% endif %}
