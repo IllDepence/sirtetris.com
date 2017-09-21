@@ -377,3 +377,58 @@ display: none;
 iframe.vis-on {
 display: block;
 }
+
+/* bending the knee to mobile dominance */
+@media only screen and (max-width: 932px) {
+#contentbox {
+width: 312px;
+}
+
+#headbox {
+height: 200px;
+min-width: 332px;
+}
+
+#innerheadbox {
+height: 74px;
+}
+
+#navbox {
+width: 332px;
+height: 121px;
+}
+
+div.navitem {
+width: 109px;
+}
+
+#ribbon {
+height: 25px;
+min-width: 332px;
+}
+
+#footer {
+width: 329px;
+height: 132px;
+}
+
+div.innercontent_l,
+div.innercontent_r,
+div.innercontent_b {
+width: 308px;
+padding: 0px 2px 5px 2px;
+margin-bottom: 7px;
+}
+
+div#floatbox_l,
+div#floatbox_r {
+float: none;
+}
+
+div.imgfloatleft img,
+div.imgfloatright img {
+float: none;
+width: 294px;
+}
+
+}
