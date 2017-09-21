@@ -220,7 +220,7 @@ Works of Hayao Miyazaki and Satoshi Kon, Akira, Ghost in the Shell, Serial Exper
 ### AMVs
 Quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
 
-Example AMVs:  
+Example AMVs:<div style="overflow-x:auto"><!-- div for mobile device special treatment-->  
 
 
 Creator | Title | Anime | Download | YouTube
@@ -240,7 +240,8 @@ seriy | Affective Schoolgirls | Nichijou | [💾](http://amvnews.ru/index.php?go
 007 Vegita | Race Against Time Trailer | Dragonball Z | [💾](http://www.video-game-chat.com/dbzsc/) | [▶](https://www.youtube.com/watch?v=sgeXlq1jvVY)
 Umika, ZEVS1993 | Our Tapes | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4470) | [▶](https://www.youtube.com/watch?v=Z6IL_YVNBDQ)
 
-‌
+
+</div>‌
 
 ### Doujinshi
 More a manga than an anime thing, really, but nevertheless worth highlighting — especially for western audiences. Because it's nice to see a healthy, living remix culture that is not being held back by ignorant backfiring corporate efforts. (While we're at it, watch [Everything is a Remix](https://vimeo.com/139094998).)
@@ -275,7 +276,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * typography
 - - -
 - - -
-<!-- custom --><div class="innercontent_r" style="position: fixed !important; top: 235px !important; left: 50% !important; margin-left: 267px !important;">
+<!-- custom --><div class="innercontent_r innercontent_r_fixed">
     <h2>Nav</h2>
     <ul>
         <li><a href="#japanese">Japanese</a></li>

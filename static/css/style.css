@@ -207,6 +207,13 @@ margin-bottom: 7px;
 overflow: hidden;
 }
 
+div.innercontent_r_fixed {
+position: fixed;
+top: 235px;
+left: 50%;
+margin-left: 267px;
+}
+
 div.innercontent_b {
 background-color: #f7f7f7;
 padding: 0px 2px 5px 2px;
@@ -434,6 +441,13 @@ div.innercontent_l img,
 div.innercontent_r img,
 div.innercontent_b img{
 max-width: 308px;
+}
+
+div.innercontent_r_fixed {
+position: initial;
+top: initial;
+left: initial;
+margin-left: initial;
 }
 
 div.imgfloatleft img,
