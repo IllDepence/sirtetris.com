@@ -57,17 +57,18 @@ def yt_inserts(markdown):
 
 def blog_entry(e, imgside):
     image = ''
-    image_source = ''
+    image_sources = []
     if len(e['image']) > 0:
         src_file = re.sub(r'\.[a-z0-9]{1,5}$', '.src', e['image'])
         path = 'static/img/blog/' + src_file
         if os.path.isfile(path):
             fd = codecs.open(path, encoding='utf-8')
-            image_source = fd.read()
+            lines = fd.readlines()
             fd.close()
+            image_sources = [l.strip() for l in lines]
     template = env.get_template('blog_entry.html')
     blog_entry = template.render(eid=e['id'], headline=e['headline'],
-        image=e['image'], image_source=image_source, image_side=imgside,
+        image=e['image'], image_sources=image_sources, image_side=imgside,
         text=e['text'], tags=e['tags'], date=e['date'])
     return blog_entry
 
