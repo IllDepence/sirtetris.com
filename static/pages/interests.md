@@ -8,10 +8,10 @@
 
 Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes — whose order you have to get right btw. — with various ways to read and interpret them depending on their current context; and over 30 common, individual ways to count things, each associated with a group of things it's used for.
 
-On the other hand pronunciation is fairly easy and super consistent, grammar is totally manageable and there are awesome things like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”.
+On the other hand pronunciation is super consistent (looking at you, English), grammar is totally manageable and there are awesome things like the word for “influence”, 「影響」, being written with the characters for “shadow” and “resonance”; or “strategy”, 「戦略」, with “battle” and “shortcut”. Also, the word for “crowd of people”, 「人混み」, has the same pronunciation as “people garbage”.
 
-Appetizer: [Japanese Language and Literature - Wes Cecil](https://www.youtube.com/watch?v=YecXCUULnEM)  
-“I mean, modern Japanese is impossible. Ancient Japanese is ... that's just ... it's just *wrongly difficult*.”  
+Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [part](https://www.youtube.com/watch?v=CF3MRMBjd20) [series](https://www.youtube.com/watch?v=TD7Lc4QBh5w) on writing Japanese  
+“It's the most bizzarly complicated writing system within a system ever devised by humankind.”  
 
 #### Overview
 
@@ -61,6 +61,7 @@ Appetizer: [Japanese Language and Literature - Wes Cecil](https://www.youtube.co
     * [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
 * In Japanese
     * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
+    * [Dogen](https://www.youtube.com/user/Dogen)
     * [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
     * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec)
     * [無駄づくり MUDAZUKURI -Wasted Creation-](https://www.youtube.com/user/mudadukuri)
@@ -86,6 +87,11 @@ Just look for people in your area doing parkour. In [my experience](?a=5fd38d56)
 To get an idea of what parkour is, watch [People in Motion](https://www.youtube.com/watch?v=QH09YCtpKaw). tl;dw: it's playing with one's environment by moving around.
 
 Side note: I like [double kongs](static/img/interests/parkour.gif).
+- - -
+# Slacklining<span id="slacklining"></span>
+*|—————————|*
+
+![](static/img/interests/slackline.gif)
 - - -
 # Karuta<span id="karuta"></span>
 *難波津に…*
@@ -135,10 +141,10 @@ I, personally, started penspinning in 2007 and actively pursued it — i.e. took
 
 ![](static/img/interests/infotime.png)
 
-I only recently(-ish) started to really think about ways to organize my life and myself more efficiently. Ever since the podcast [Hello Internet](http://www.hellointernet.fm/) popped into existence [CGP Grey](http://www.cgpgrey.com/) seems to me like a figure to aspire to in that regard but ... I'm not an Apple user, so no OmniFocus for me. Jests aside, here's some relevant stuff:
+Ever since the podcast [Hello Internet](http://www.hellointernet.fm/) popped into existence [CGP Grey](http://www.cgpgrey.com/) seems to me like a figure to aspire to with regard to self-management but ... I'm not an Apple user, so no OmniFocus for me. Jests aside, here's some relevant stuff:
 
 #### A personal wiki
-In order to organize information I use [gitit](http://gitit.net/). Reasons: Markdown, subfolders, MathJax, git based.
+In order to organize information I use [gitit](https://github.com/jgm/gitit). Reasons: Markdown, subfolders, MathJax, git based.
 
 #### Memorize stuff (SRS)
 [Anki](http://ankisrs.net/) — ever since I set out to learn 2000+ Japanese characters. Have something that you'd like to memorize efficiently and forever? SRS!
@@ -248,7 +254,7 @@ Also: [Copyright and Comics in Japan: Does Law Explain Why All the Cartoons My K
 <p>The first thing I watched after re-discovering anime was Elfen Lied. As I was blown away I became kind of obsessed with it and collected loads of information and fan art. Since this could be of some use to others I'll just <a href="?c=el">leave this here</a>.</p>-->
 - - -
 # MOAR<span id="MOAR"></span>
-Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.
+Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to create a section for, is represented somewhere else on the site, etc.
 
 * linux
 * free and open-source
@@ -258,7 +264,6 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * i18n/l10n
 * photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a system camera after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
-* slacklining
 * geocaching
 * cinematography (as in [I watch movies](static/dl/movies))
 * physical security (see [lock picking](#lockpicking))
@@ -275,6 +280,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
     <ul>
         <li><a href="#japanese">Japanese</a></li>
         <li><a href="#parkour">Parkour</a></li>
+        <li><a href="#slacklining">Slacklining</a></li>
         <li><a href="#karuta">Karuta</a></li>
         <li><a href="#penspinning">Penspinning</a></li>
         <li><a href="#management">Self-management</a></li>
