@@ -109,6 +109,7 @@ height: 200px;
 background-image: url('../img/site/head0.jpg'), url('../img/site/head1.jpg');
 background-repeat: no-repeat, repeat-x;
 background-position: right top, right 1120px top;
+min-width: 932px;
 }
 
 #innerheadbox {
@@ -156,6 +157,7 @@ background-color: #006378;
 #ribbon {
 height: 25px;
 background-color: #006378;
+min-width: 932px;
 }
 
 #footer {
