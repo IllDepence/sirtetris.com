@@ -425,10 +425,32 @@ div#floatbox_r {
 float: none;
 }
 
+div.innercontent_l img,
+div.innercontent_r img,
+div.innercontent_b img{
+max-width: 308px;
+}
+
 div.imgfloatleft img,
 div.imgfloatright img {
 float: none;
-width: 294px;
+max-width: 294px;
+}
+
+/* kanji progress graph special rule */
+div#graph * {
+display: none;
+}
+div#graph:before {
+content: "Didn't implement the graph for mobile.\Aᕕ( ᐛ )ᕗ\A‌‌‌";
+white-space: pre;
+}
+
+/* embedded videos in blog entries */
+div.innercontent_b iframe,
+div.innercontent_b object,
+div.innercontent_b embed {
+max-width: 294px;
 }
 
 }
