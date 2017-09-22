@@ -7,7 +7,7 @@ function SingleBlock(x, y) {
     this.elem.id = 'singleblock'+this.id;
     this.elem.setAttribute('style', 'height: 10px; width: 10px;'+
        'background-color:#007f9a; position: absolute; top: '+this.y+'px;'+
-        'right: '+(this.x+750)+'px; position: absolute; z-index: 90;');
+        'right: '+(this.x+(window.innerWidth/2)-100)+'px; position: absolute; z-index: 90;');
     return this;
     }
 SingleBlock.prototype.spawn = function() {
@@ -246,6 +246,14 @@ Piece.prototype.rotate = function() {
 Piece.prototype.fall = function() {
     return this.move(0, 10);
     }
+Piece.prototype.getFloorHeight = function() {
+    if (window.innerWidth < 932) {
+        return 60;
+        }
+    else {
+        return 130;
+        }
+    }
 Piece.prototype.live = function() {
     if (!this.living) return;
     bottom = 0;
@@ -253,7 +261,7 @@ Piece.prototype.live = function() {
         var y = this.blocks[i].y;
         if (y > bottom) bottom = y;
         }
-    if (bottom > 130) {
+    if (bottom > this.getFloorHeight()) {
         this.die();
         return;
         }
