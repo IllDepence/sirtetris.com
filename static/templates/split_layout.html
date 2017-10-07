@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block subtitle %}{{ subtitle }}{% endblock %}
+{% block content %}
+<div id="floatbox_r">
+    {% for item in right %}
+        {% if '<!-- custom -->' in item %}
+            {{ item }}
+        {% else %}
+            <div class="innercontent_r">{{ item }}</div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<div id="floatbox_l">
+    {% for item in left %}
+        {% if '<!-- custom -->' in item %}
+            {{ item }}
+        {% else %}
+            <div class="innercontent_l">{{ item }}</div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

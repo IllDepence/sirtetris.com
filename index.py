@@ -133,7 +133,7 @@ elif not 'c' in postget:
     page = 'blog'
 else:
     page = postget['c'].value
-    valid = ['top']
+    valid = ['top', 'blog', 'hbby', 'proj', 'misc', 'imprint']
     if not page in valid:
         page = 'notfound'
 

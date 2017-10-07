@@ -1,0 +1,43 @@
+.line path {
+  fill: none;
+  stroke-width: 1px;
+}
+.axis {
+  shape-rendering: crispEdges;
+}
+.y.axis line, .y.axis path, .x.axis line, .x.axis path {
+  fill: none;
+  stroke: #000;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+.focus line {
+  fill: none;
+  stroke-width: 1px;
+  stroke: #aaa;
+  shape-rendering: crispEdges;
+  opacity: 0.5;
+}
+.words, .wrate {
+  stroke: #e04646 !important;
+}
+.kanji, .krate {
+  stroke: #0060ad !important;
+}
+.rate {
+  stroke: #666 !important;
+}
+.wordstext, .wratetext {
+  fill: #e04646;
+}
+.kanjitext, .kratetext {
+  fill: #0060ad;
+}
+.ratiotext {
+  fill: #666;
+}
+.secondary {
+  opacity: 0.25;
+}

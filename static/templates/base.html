@@ -4,10 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="static/css/style.css">
+<title>sirtetris/{% block subtitle %}{% endblock %}</title>
+<meta name="author" content="Tarek Saier">
+<meta name="robots" content="index,follow">
 </head>
 <body>
 
-<svg id="sirtetris" height="84" width="494">
+<svg id="sirtetris" viewBox="0 0 494 84">
   <a href="?c=top">
   <g>
   <path d="M 0,0 0,44 247,44 494,44 494,0 0,0 Z" id="bg_rect" />
@@ -24,9 +27,13 @@
   </a>
 </svg>
 
+<div id="menu">
+{% block menu %}{% endblock %}
+</div>
 <div id="content">
 {% block content %}{% endblock %}
 </div>
 
+<script src="static/js/functions.js"></script>
 </body>
 </html>
