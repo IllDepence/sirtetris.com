@@ -173,11 +173,11 @@ To get an idea of what it is about, watch [Crack The Surface - Episode I](http:/
 In short, it is the exploration of man-made stuff. Objects of interest vary as much as reasons to do it I guess. For me, personally, it's about adventure, appreciation and to some extend photography. Sadly though, I only *very* rarely got around to do it so far.<br><br>
 
 <div class="imgdropdown"><strong>2008 &gt; trains</strong>
-<img src="static/img/interests/08_i_like_trains.png" alt="08_i_like_trains.png" /></div>
+<img src="static/img/interests/08_i_like_trains.jpg" alt="08_i_like_trains.jpg" /></div>
 <div class="imgdropdown"><strong>2011 &gt; more trains</strong>
-<a href="static/img/interests/11_i_like_trains_full.jpg" title="fullsize"><img src="static/img/interests/11_i_like_trains.png" alt="11_i_like_trains.png" /></a></div>
+<a href="static/img/interests/11_i_like_trains_full.jpg" title="fullsize"><img src="static/img/interests/11_i_like_trains.jpg" alt="11_i_like_trains.jpg" /></a></div>
 <div class="imgdropdown"><strong>2012 &gt; gravel plant</strong>
-<a href="static/img/interests/12_gravel_plant_full.jpg" title="fullsize"><img src="static/img/interests/12_gravel_plant.png" alt="12_gravel_plant.png" /></a></div>
+<a href="static/img/interests/12_gravel_plant_full.jpg" title="fullsize"><img src="static/img/interests/12_gravel_plant.jpg" alt="12_gravel_plant.jpg" /></a></div>
 - - -
 # Lock picking<span id="lockpicking"></span>
 *Locks are meant to keep honest people honest.*
@@ -263,7 +263,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * tabletop games
 * sharing economy, collaborative consumption, crowdsourcing
 * i18n/l10n
-* photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a system camera after 7 years)
+* photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a [system camera](static/img/interests/P1000049s1000.jpg) after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
 * geocaching
 * cinematography (as in [I watch movies](static/dl/movies))

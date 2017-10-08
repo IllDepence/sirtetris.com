@@ -7,7 +7,7 @@ I started off with three beginner level Japanese courses offered by the language
 <div class="hr"></div>
 ## &gt; Main quest: learn the language
 ##### <br>
-### Progress<span id="jp-progress"></span>
+### Reading &amp; writing<span id="jp-progress"></span>
 ‌  
 <div id="graph"><img src="static/img/projects/kanjistats.png" alt="kanjistats.png" /></div>
 (plotted using [this script](https://github.com/IllDepence/kanjiplot))<br><br>
