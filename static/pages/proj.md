@@ -104,7 +104,8 @@ Started doing this in 2005. Content changes over time as do my interests.
 * [MALandBots](https://github.com/IllDepence/MALandBots)
 * [sirtetris.com](https://github.com/IllDepence/sirtetris.com)
 - - -
-## Misc
+## MISC
+* [Wikipedia](https://en.wikipedia.org/wiki/User:IllDepence)
 * [DB hidden buttons](?a=6a17efc0)
 * [Giant pokemon](http://giantpokemon.tumblr.com/)
 * [1.88 € time-lapse](static/img/projects/ir_remote.png)
