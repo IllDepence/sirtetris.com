@@ -12,24 +12,10 @@ import os
 import re
 import sys
 
-HOME_DIR = '/home/sirtetri/www/'
-#HOME_DIR = '/usr/share/nginx/html/tarek/sirtetris/'
+#HOME_DIR = '/home/sirtetri/www/'
+HOME_DIR = '/var/www/html/tarek/tashumi/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
-navitems=[{'link':'def','text':'def'},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {'link':'blog','text':'blog'},
-          {'link':'person','text':'person'},
-          {'link':'interests','text':'interests'},
-          {'link':'projects','text':'projects'},
-          {},
-          {},
-          {'link':'contact','text':'contact'}]
 jsdec = json.decoder.JSONDecoder()
 jsenc = json.encoder.JSONEncoder()
 
@@ -142,42 +128,49 @@ def blog_entries(postget):
 env = Environment(loader=FileSystemLoader('static/templates'))
 postget = cgi.FieldStorage()
 if not 'c' in postget and not 'a' in postget and not 'p' in postget and not 't' in postget:
-    page = 'def'
+    page = 'top'
 elif not 'c' in postget:
     page = 'blog'
 else:
     page = postget['c'].value
-    valid = [itm['link'] for itm in navitems if 'link' in itm]
-    valid.append('imprint')
+    valid = ['top', 'blog', 'hbby', 'proj', 'misc', 'imprint']
     if not page in valid:
         page = 'notfound'
 
 if page == 'blog':
     content = blog_entries(postget)
-else:
+elif page != 'top':
     fd = codecs.open('static/pages/{0}.md'.format(page), encoding='utf-8')
     content = fd.read()
     fd.close()
+else:
+    content = ''
 
 content = yt_toggles(content)
 content = yt_inserts(content)
 
-if SEPARATOR+SEPARATOR in content:
-    template = env.get_template('split_layout.html')
-    (left_all,right_all) = content.split(SEPARATOR+SEPARATOR)
-    left = left_all.split(SEPARATOR)
-    right = right_all.split(SEPARATOR)
-    left = [markdown.markdown(l, extensions=MD_EXT) for l in left]
-    right = [markdown.markdown(r, extensions=MD_EXT) for r in right]
+if page == 'top':
+    template = env.get_template('tashumimaru.html')
     fill = None
-else:
-    template = env.get_template('fill_layout.html')
-    fill = content.split(SEPARATOR)
-    fill = [markdown.markdown(f, extensions=MD_EXT) for f in fill]
     left = None
     right = None
+else:
+    if SEPARATOR+SEPARATOR in content:
+        template = env.get_template('split_layout.html')
+        (left_all,right_all) = content.split(SEPARATOR+SEPARATOR)
+        left = left_all.split(SEPARATOR)
+        right = right_all.split(SEPARATOR)
+        left = [markdown.markdown(l, extensions=MD_EXT) for l in left]
+        right = [markdown.markdown(r, extensions=MD_EXT) for r in right]
+        fill = None
+    else:
+        template = env.get_template('fill_layout.html')
+        fill = content.split(SEPARATOR)
+        fill = [markdown.markdown(f, extensions=MD_EXT) for f in fill]
+        left = None
+        right = None
 
-unicode_page = template.render(navitems=navitems, left=left, right=right,
+unicode_page = template.render(left=left, right=right,
                                 fill=fill, subtitle=page)
 print 'Content-Type: text/html\r\n'
 print unicode_page.encode('utf-8')
