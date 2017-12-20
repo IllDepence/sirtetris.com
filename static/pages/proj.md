@@ -96,12 +96,14 @@ Started doing this in 2005. Content changes over time as do my interests.
 - - -
 - - -
 ## GitHub
+* [JSONkeeper](https://github.com/IllDepence/JSONkeeper)
 * [userscripts](https://github.com/IllDepence/userscripts)
 * [kanjiplot](https://github.com/IllDepence/kanjiplot)
 * [findvocab](https://github.com/IllDepence/findvocab)
 * [anihilist](https://github.com/IllDepence/anihilist)
 * [calyx](https://github.com/IllDepence/calyx)
 * [MALandBots](https://github.com/IllDepence/MALandBots)
+* [{御,誤}用組文字](https://github.com/IllDepence/goyoukumimoji)
 * [sirtetris.com](https://github.com/IllDepence/sirtetris.com)
 - - -
 ## MISC

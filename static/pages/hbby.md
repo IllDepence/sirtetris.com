@@ -62,6 +62,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 * In Japanese
     * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
     * [Dogen](https://www.youtube.com/user/Dogen)
+    * [backspace.fm](http://backspace.fm/)
     * [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
     * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec)
     * [無駄づくり MUDAZUKURI -Wasted Creation-](https://www.youtube.com/user/mudadukuri)
@@ -268,7 +269,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * geocaching
 * cinematography (as in [I watch movies](static/dl/movies))
 * physical security (see [lock picking](#lockpicking))
-* psychology (introductory class in 2013/14; social psy. + work and organizational psy. in 2016/17)
+* psychology (introductory class in 2013/14; social psy. + work and organizational psy. in 2016/17, educational psychology in 2017)
 * social engineering (psychology, physical security, it security, ...)
 * flourishing ([2009](static/img/interests/flourishing.gif))
 * [freestyle slalom](https://youtu.be/0289Ome76Qg)
