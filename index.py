@@ -13,7 +13,7 @@ import re
 import sys
 
 #HOME_DIR = '/home/sirtetri/www/'
-HOME_DIR = '/var/www/html/tarek/tashumi/'
+HOME_DIR = '/var/www/html/tarek/sirtetris/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
 jsdec = json.decoder.JSONDecoder()
@@ -28,6 +28,14 @@ import markdown
 from jinja2 import Template, Environment, FileSystemLoader
 
 # - - - - - - - - - -
+
+def mixlangs(markdown, mixed):
+    mixlang = re.compile('<!-- mixlang:([^>]*):([^>]*) -->', re.M)
+    if mixed:
+        return re.sub(mixlang, r'\1', markdown)
+    else:
+        return re.sub(mixlang, r'<span class="mixlang"><span class="swap" '\
+            r'swap="\2"><span class="inner">\1</span></span></span>', markdown)
 
 def yt_toggles(markdown):
     yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
@@ -148,6 +156,11 @@ else:
 
 content = yt_toggles(content)
 content = yt_inserts(content)
+accept_lang = os.environ.get('HTTP_ACCEPT_LANGUAGE', False)
+if accept_lang and 'ja' in accept_lang:
+    content = mixlangs(content, True)
+else:
+    content = mixlangs(content, False)
 
 if page == 'top':
     template = env.get_template('tashumimaru.html')

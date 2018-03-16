@@ -62,21 +62,23 @@ Timeline |
 ##### <br>
 ### Progress<span id="jp-ex-progress"></span>
 ‌  
-![](static/img/projects/explore_jp_7.jpg)
+![](static/img/projects/explore_jp_9.jpg)
 ‌  
 
 Timeline |
 :-------:|:-
-15/09/08 | half a day in 大阪 — airports
-15/09/09 | flight to 愛媛 — new basis of operations
-15/10/17 | bus tour to 高知
-15/11/28 | two day trip to 広島
-16/03/02 | train trip to 大阪 along 香川, 岡山, 兵庫
-16/03/04 | train trip to 名古屋 along 京都, 滋賀, 岐阜
-16/03/06 | train trip to 東京 along 静岡, 神奈川
-16/03/10 | train trip to 京都
-16/08/08 | a night in a mountain hut on 富士山 (静岡)
-16/08/11 | a night in 藤沢 (神奈川)
+15/09/08 | half a day in 大阪府 — airports
+15/09/09 | flight to 愛媛県 — new basis of operations
+15/10/17 | bus tour to 高知県
+15/11/28 | two day trip to 広島県
+16/03/02 | train trip to 大阪府 along 香川県, 岡山県, 兵庫県
+16/03/04 | train trip to 愛知県 along 京都府, 滋賀県, 岐阜県
+16/03/06 | train trip to 東京都 along 静岡県, 神奈川県
+16/03/10 | train trip to 京都府
+16/08/08 | a night in a mountain hut on 富士山 (静岡県)
+16/08/11 | a night in 藤沢 (神奈川県)
+17/12/29 | train trip to 新潟県 along 埼玉県, 群馬県
+18/01/10 | day trip to 埼玉県
 
 - - -
 # I tinker with tech!
