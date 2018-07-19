@@ -56,13 +56,14 @@ Timeline |
 16/09/15 | started [transcribing videos](http://moc.sirtetris.com/字幕挑戦投稿/)
 16/10/06 | may or may not have started translating for a scanlation group
 16/12/12 | [2000 kanji](?a=1f099c17)
+18/05/01 | 6000 words vocabulary
 
 <div class="hr"></div>
 ## &gt; Side quest: explore the country
 ##### <br>
 ### Progress<span id="jp-ex-progress"></span>
 ‌  
-![](static/img/projects/explore_jp_9.jpg)
+![](static/img/projects/explore_jp_11.jpg)
 ‌  
 
 Timeline |
@@ -79,6 +80,8 @@ Timeline |
 16/08/11 | a night in 藤沢 (神奈川県)
 17/12/29 | train trip to 新潟県 along 埼玉県, 群馬県
 18/01/10 | day trip to 埼玉県
+18/04/21 | quick trip to 琵琶湖 (滋賀県)
+18/04/30 | attended ニコニコ超会議 in 千葉県
 
 - - -
 # I tinker with tech!

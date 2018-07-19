@@ -23,6 +23,7 @@ Alternatively use [ProtonMail](https://protonmail.com/) and reach me at <span id
 * [Annette](http://penguinlyawesome.tumblr.com)
 * [Duc-Ha](http://coldbloodedness.blogspot.com)
 * [Eric](http://erics.bplaced.de/)
+* [Michael](http://www.goodchapy.com/)
 * [Wolfgang](http://vehk.de/)
 - - -
 ## Imprint

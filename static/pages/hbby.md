@@ -31,7 +31,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 #### Use
 
 * [Lang-8](http://lang-8.com/) (corrections from native speakers)
-* [Anki](http://ankisrs.net/") ([SRS](https://en.wikipedia.org/wiki/Spaced_repetition) with synchronization)
+* [Anki](http://ankisrs.net/) ([SRS](https://en.wikipedia.org/wiki/Spaced_repetition) with synchronization)
     * [Japanese Support](https://ankiweb.net/shared/info/3918629684) (plugin)
     * [Script for plotting the number of kanji in an Anki deck over time](https://github.com/IllDepence/kanjiplot)
     * [Script for finding new useful vocab based on frequency lists](https://github.com/IllDepence/findvocab)
@@ -79,7 +79,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 My personal Japanese progress has it's own place in the [projects section](?c=projects).
 - - -
 # Parkour<span id="parkour"></span>
-*“Recontextualizing public urban space as a playground instead of something merely functional.“* ([Source](https://soundcloud.com/officialsxsw/hacking-language-bots-if-and-esolangs-sxsw-interactive-2016))
+*“Recontextualizing public urban space as a playground instead of something merely functional.”* ([Source](https://soundcloud.com/officialsxsw/hacking-language-bots-if-and-esolangs-sxsw-interactive-2016))
 
 ![](static/img/interests/parkour.jpg)
 
