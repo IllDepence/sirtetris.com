@@ -12,7 +12,7 @@ I started off with three beginner level Japanese courses offered by the language
 <div id="graph"><img src="static/img/projects/kanjistats.png" alt="kanjistats.png" /></div>
 (plotted using [this script](https://github.com/IllDepence/kanjiplot))<br><br>
 
-Timeline |
+Timeline |<!-- this makes the table work -->
 :-------:|:-
 13/03/27 | started taking three beginner level courses offered by the language center at my university
 13/04/14 | started posting on [Lang 8](http://lang-8.com/588644/)
@@ -57,6 +57,7 @@ Timeline |
 16/10/06 | may or may not have started translating for a scanlation group
 16/12/12 | [2000 kanji](?a=1f099c17)
 18/05/01 | 6000 words vocabulary
+18/07/01 | took the JLPT N1 (result: 111/180)
 
 <div class="hr"></div>
 ## &gt; Side quest: explore the country
@@ -66,7 +67,7 @@ Timeline |
 ![](static/img/projects/explore_jp_11.jpg)
 ‌  
 
-Timeline |
+Timeline |<!-- this makes the table work -->
 :-------:|:-
 15/09/08 | half a day in 大阪府 — airports
 15/09/09 | flight to 愛媛県 — new basis of operations
@@ -100,15 +101,16 @@ Started doing this in 2005. Content changes over time as do my interests.
 <script src="static/pages/kanjigraph.js"></script>
 - - -
 - - -
-## GitHub
+## Git repos
 * [JSONkeeper](https://github.com/IllDepence/JSONkeeper)
-* [userscripts](https://github.com/IllDepence/userscripts)
+* [Ubunchu!](https://sirtetris.gitlab.io/ubunchu-translation/)
 * [kanjiplot](https://github.com/IllDepence/kanjiplot)
 * [findvocab](https://github.com/IllDepence/findvocab)
 * [anihilist](https://github.com/IllDepence/anihilist)
 * [calyx](https://github.com/IllDepence/calyx)
 * [MALandBots](https://github.com/IllDepence/MALandBots)
 * [{御,誤}用組文字](https://github.com/IllDepence/goyoukumimoji)
+* [userscripts](https://github.com/IllDepence/userscripts)
 * [sirtetris.com](https://github.com/IllDepence/sirtetris.com)
 - - -
 ## MISC

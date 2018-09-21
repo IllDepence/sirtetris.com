@@ -16,7 +16,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 #### Overview
 
 * [/r/LearnJapanese](http://www.reddit.com/r/LearnJapanese/)'s [wiki](http://www.reddit.com/r/LearnJapanese/wiki/index)
-* [Tofugu’s 100 Best Resources For Learning Japanese](http://www.tofugu.com/2010/04/06/tofugu-100-best-japanese-learning-resources/")
+* [Tofugu’s 100 Best Resources For Learning Japanese](http://www.tofugu.com/2010/04/06/tofugu-100-best-japanese-learning-resources/)
 * [Japanese FAQ](http://www.sljfaq.org/afaq/afaq.html) (from the usenet newsgroup sci.lang.japan)
 * [all japanese all the time TOC](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
 
@@ -24,7 +24,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 
 * [Tae Kim's Guide to Learning Japanese](http://www.guidetojapanese.org/learn/) (free, with extensive grammar guide)
 * [IMABI](http://www.imabi.net/) (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)
-* [The Nihongoresources Grammar Book](http://grammar.nihongoresources.com/) (free, extensive grammar guide)
+* [An Introduction to Japanese; Syntax, Grammar & Language](http://grammar.nihongoresources.com/) (free, extensive grammar guide)
 * [TextFugu](http://www.textfugu.com/) (free *only* up to the point where you'd start learning kanji)
 * [Tofugu's writings on learning](http://www.tofugu.com/tag/learning/)
 
@@ -45,7 +45,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 * [minimum font size for Japanese text](http://moc.sirtetris.com/enlargeJapanese.user.js) (user script)
 * [GNU Unifont](http://unifoundry.com/unifont.html) (useful for graphemes/radicals)
 * [Kana Invaders](http://learnjapanesepod.com/kana-invaders/)
-* Wallpaper for [dates](static/img/interests/dates_anime.png), [time](static/img/interests/time_anime.png), [timespans](static/img/interests/timespans_anime.png), [casual grammar](static/img/interests/casuals_anime.png), [indefinite pronouns](static/img/interests/indefinite_pronouns_anime.png)  
+<!--* Wallpaper for [dates](static/img/interests/dates_anime.png), [time](static/img/interests/time_anime.png), [timespans](static/img/interests/timespans_anime.png), [casual grammar](static/img/interests/casuals_anime.png), [indefinite pronouns](static/img/interests/indefinite_pronouns_anime.png)  -->
 * [Kana input without IM](?a=079cf21f) (Linux/BSD)
 
 #### Absorb
@@ -56,7 +56,6 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
     * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
     * [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
     * [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
-    * [Ryan Boundless](https://www.youtube.com/user/japanascope)
     * [BusanKevin](https://www.youtube.com/user/BusanKevin) / [jlandkev](https://www.youtube.com/user/jlandkev)
     * [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
 * In Japanese
@@ -73,7 +72,14 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 
 ### Interact
 
-* [Yahoo!知恵袋](http://chiebukuro.yahoo.co.jp/dir/dir_list.php)
+* Online
+    * [Quora](https://jp.quora.com/)
+    * [Yahoo!知恵袋](http://chiebukuro.yahoo.co.jp/dir/dir_list.php)
+* Offline
+    * [Meetup](https://www.meetup.com/) (try to find meetups where description/details/etc. are only given in Japanese)
+    * [connpass](https://connpass.com/) (aimed at engineers)
+    * [Peatix](https://peatix.com/)
+    * [TwiPla](https://twipla.jp/)
 
 ‌  
 My personal Japanese progress has it's own place in the [projects section](?c=projects).
@@ -99,7 +105,7 @@ Side note: I like [double kongs](static/img/interests/parkour.gif).
 
 ![](static/img/interests/karuta.jpg)
 
-[Karuta](http://en.wikipedia.org/wiki/Karuta) is a Japanese loanword originally from Portuguese (“carta”) and a term used to describe several types of Japanese card games. A particularly interesting group of which is called uta-garuta and often based on the poem collection [Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu) by [Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika). [Kyōgi karuta](http://en.wikipedia.org/wiki/Competitive_karuta) is the competitive version of uta-garuta.
+[Karuta](http://en.wikipedia.org/wiki/Karuta) is a Japanese loanword originally from Portuguese (“carta”) and a term used to describe several types of Japanese card games. A particularly interesting group of aforementioned is called uta-garuta and often based on the poem collection [Ogura Hyakunin Isshu](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu) by [Fujiwara no Teika](http://en.wikipedia.org/wiki/Fujiwara_no_Teika). [Kyōgi karuta](http://en.wikipedia.org/wiki/Competitive_karuta) is the competitive version of uta-garuta.
 
 If you want to get an overview of karuta-type games and more detailed information feel free to have a look at [this info page](http://moc.sirtetris.com/karuta/) I created. A brief peak into kyōgi karuta right here:
 
@@ -125,14 +131,14 @@ A fun way to learn more about the world of karuta would be reading the manga [Ch
 
 ![](static/img/interests/ps.jpg)
 
-Getting into penspinning is quite easy. You grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.  
+Giving penspinning a try couldn't be easier. Grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.  
 It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the [UPSB](http://upsb.info/), I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)
 
 Here's some viewing material: [Supawit](https://www.youtube.com/watch?v=Ug_D_jyOOmE), [pyralux](https://www.youtube.com/watch?v=2EGFq-jvhFc), [A13x](https://www.youtube.com/watch?v=5jaRrtGVc3A)
 
-I, personally, started penspinning in 2007 and actively pursued it — i.e. took my time to practice, look out for new tricks to learn, etc. — for maybe a year and a half. After that it's been casual ever since. I barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)
+I, personally, started penspinning in 2007 and actively pursued it — i.e. took my time to practice, look out for new tricks to learn, etc. — for maybe a year and a half. After that it's been casual ever since. I barely try or practice new stuff ... but it's still a lot of fun to doing it and I don't plan to stop. :)
 
-**Some of my recordings**  
+#### Some of my recordings
 <!-- ytdd:BakFall Session 3:DHDyYK-nPIA -->
 <!-- ytdd:Copy clip:shhumscxa0s -->
 <!-- ytdd:Freestyle:mGnMcw7IM9I -->
@@ -163,9 +169,9 @@ In order to organize information I use [gitit](https://github.com/jgm/gitit). Re
 Most keyboards today are so called [rubber dome](http://deskthority.net/wiki/Rubber_dome) or [scissor switch](http://deskthority.net/wiki/Scissor_switch) keyboards. They're cheap to produce and do their job. There are, however, other types of keyboards which in general are referred to as *mechanical keyboards*.
 
 The exact mechanisms of how mechanical keyboard switches work differ from each other. In most cases the switches of one vendor have colored stems which give them their name and indicate their tactile and acoustic behaviour. More information can be found in the [deskthority wiki](http://deskthority.net/wiki/Category:Keyboard_switches).  
-The reason for most people to use a mechanical keyboard is the higher quality and durability, the fact that you can choose a swich type that fits your "taste" the best and generally the more comfortable feeling when typing. If you're interested in the topic be sure to check out  [deskthority.net](http://deskthority.net/), [/r/MechanicalKeyboards](http://www.reddit.com/r/MechanicalKeyboards/) and [geekhack.org](http://geekhack.org/).
+The reason for most people to use a mechanical keyboard is the higher quality and durability, the fact that you can choose a swich type that fits your “taste” the best and generally the more comfortable feeling when typing. If you're interested in the topic be sure to check out  [deskthority.net](http://deskthority.net/), [/r/MechanicalKeyboards](http://www.reddit.com/r/MechanicalKeyboards/) and [geekhack.org](http://geekhack.org/).
 
-I myself use a KBC Poker with Cherry MX Blue switches as primary keyboard (the one on top on the picture above) and I also own a Leopold FC500RT/AB with MX Browns (middle) as well as a SteelSeries 7G with MX Blacks (bottom).
+Personally I use a Vortex CORE with Cherry MX Blue switches and before that in reverse chronological order used a KBC Poker (MX Blues), Leopold FC500RT/AB (MX Browns) and a SteelSeries 7G (MX Blacks).
 - - -
 # (Urban) Exploration<span id="exploration"></span>
 *Because it's there.*
@@ -183,7 +189,7 @@ In short, it is the exploration of man-made stuff. Objects of interest vary as m
 # Lock picking<span id="lockpicking"></span>
 *Locks are meant to keep honest people honest.*
 
-If you are interested in lock picking you might want to take a look at the [MIT Guide to Lock Picking](http://lockpickguide.com/support-files/mitguidetolockpick.pdf). Another great starting point is Schuyler Towne's video series [Locks: Basic operation and manipulation](http://www.youtube.com/playlist?list=PL66CD42F86F3A1F85).  
+For a written intro into lock picking take a look at the [MIT Guide to Lock Picking](http://lockpickguide.com/support-files/mitguidetolockpick.pdf). If you prefer video, a great starting point is Schuyler Towne's video series [Locks: Basic operation and manipulation](http://www.youtube.com/playlist?list=PL66CD42F86F3A1F85).  
 Further places to look for interesting content include [TOOOL](http://toool.us/) (The Open Organisation Of Lockpickers), [/r/lockpicking](http://www.reddit.com/r/lockpicking/) and the [DEF CON Media Archives Portal](https://www.defcon.org/html/links/dc-archives.html), where you can find a lot of recorded talks on the subject of lock picking and physical security in general.
 - - -
 # Speedrunning<span id="speedrunning"></span>
@@ -191,11 +197,11 @@ Further places to look for interesting content include [TOOOL](http://toool.us/)
 
 ![](static/img/interests/agdq.jpg)
 
-Concerning what I know about speedruns the places to go are the [Speed Demos Archive](http://speeddemosarchive.com/) and [Speed&shy;Runs&shy;Live](http://www.speedrunslive.com/). If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:  
+As far as I can tell the places to go to for speedrunning content are the [Speed Demos Archive](http://speeddemosarchive.com/) and [Speed&shy;Runs&shy;Live](http://www.speedrunslive.com/). If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:  
 <!-- ytdd:Portal Done Pro:W1U5RUVENNE -->
-*and* the [Portal Done Pro - Commentary Video](https://www.youtube.com/playlist?list=PL359B764A0A3B8188). Note that this run does not comply with the rules of SDA and is not listed there. Nonetheless does it give a nice impression of what speedrunning means. A very entertaining way to learn a bit more about speedruns can be following one of SDA's [marathons](http://marathon.speeddemosarchive.com/), where a group of speedrunners plays through a ton of games in a few days. Most of them comment on what they are doing while playing, so you get an insight on what the key techniques are for running a particular game.
+*and* the [Portal Done Pro - Commentary Video](https://www.youtube.com/playlist?list=PL359B764A0A3B8188). Note that this run does not comply with the rules of SDA and is not listed there. Nonetheless does it give a nice glimpse into the world of speedrunning. A very entertaining way to learn a bit more can be following one of SDA's [marathons](http://marathon.speeddemosarchive.com/), where a group of speedrunners plays through a ton of games throughout several days. Most of them comment on what they are doing while playing, so you get an insight into what the key techniques are for running a particular game.
 
-As opposed to speedruns gathered at SDA there are also runs called TAS, tool-assisted speedruns. I don't know a lot about them, but I guess [TASVideos](http://tasvideos.org/) is a good resource to start with.
+As opposed to speedruns gathered at SDA, there are also runs called TAS — tool-assisted speedruns. I don't know a lot about them, but I guess [TASVideos](http://tasvideos.org/) is a good resource to start with.
 
 I myself never did serious speedrunning. Further down some casual (and old) stuff.
 
@@ -205,21 +211,24 @@ I myself never did serious speedrunning. Further down some casual (and old) stuf
 #### Half-Life
 <!-- ytdd:Hazard Course done in 3&colon;23min:2gG5PCDWQJ4 -->
 - - -
-# Anime<span id="anime"></span>
-*“Evidence that Japanese animators are reaching for the moon, while most of their American counterpart remain stuck in the kiddie sandbox.“* ([Source](https://www.youtube.com/watch?v=yn7U1KIGeuQ))
+# Remix culture<span id="remix"></span>
+*“Copyright is brain damage.“* ([Source](https://www.youtube.com/watch?v=XO9FKQAxWZc))
 
-![](static/img/interests/anime.jpg)
+![](static/img/interests/remix.jpg)
 
-If you're lucky enough to be able to enjoy anime you're likely to be oversupplied with amazing series and movies for like ... ever.
+Maybe not a hobby in the traditional sense, but something I would like people to be more aware of and where try myself to lead by example. Use (and thereby spread) stuff that is permissively licensed ([e.g. muisc](https://www.youtube.com/watch?v=URz6XdYJdqw)), buy [DRM free](https://www.defectivebydesign.org/guide) whenever possible, release under permissive licenses yourself.
 
-### Web
-[AL](http://anilist.co/)/[HB](http://hummingbird.me/)/[MAL](http://myanimelist.net/)/[Annict](http://www.annict.com/), [AniDB](http://anidb.net/), [zerochan](http://www.zerochan.net/), [pivix](http://www.pixiv.net), [Digital Nippon](http://digitalnippon.de/) ...
+If you haven't seen it yet, watch [Everything is a Remix](https://vimeo.com/139094998). Further down some very specific realms of remix culture.
 
-### Recommentations
-Works of Hayao Miyazaki and Satoshi Kon, Akira, Ghost in the Shell, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari, Mononoke.
+### Doujinshi
+Not only what brought the idea of [drifting trains](http://m-ex.jp/circle/catalog/D01/d01.htm) into this world, but also a nice example especially worth highlighting to western audiences of a healthy, living remix culture that is not being held back by ignorant backfiring corporate efforts.
+
+“Doujinshi is [...] like celebration, an ongoing fan party. [...] in America, grumpy rights holding companies shut down the party by calling the cops. In Japan, companies let the music play because they realize the party's in their honor.” — [Tofugu](https://www.tofugu.com/japan/doujinshi-definition/)
+
+Also: [Copyright and Comics in Japan: Does Law Explain Why All the Cartoons My Kid Watches are Japanese Imports?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=347620)
 
 ### AMVs
-Quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
+No connection to licensing and legality here. Just fun content if it's your cup of tea. Quality AMV sources: [amvnews.ru](http://amvnews.ru/) and the [Recommended AMVs](http://www.animemusicvideos.org/forum/viewforum.php?f=41) subforum on animemusicvideos.org.
 
 Example AMVs:<div style="overflow-x:auto"><!-- div for mobile device special treatment-->  
 
@@ -243,17 +252,6 @@ Umika, ZEVS1993 | Our Tapes | mixed | [💾](http://amvnews.ru/index.php?go=File
 
 
 </div>‌
-
-### Doujinshi
-More a manga than an anime thing, really, but nevertheless worth highlighting — especially for western audiences. Because it's nice to see a healthy, living remix culture that is not being held back by ignorant backfiring corporate efforts. (While we're at it, watch [Everything is a Remix](https://vimeo.com/139094998).)
-
-“Doujinshi is [...] like celebration, an ongoing fan party. [...] in America, grumpy rights holding companies shut down the party by calling the cops. In Japan, companies let the music play because they realize the party's in their honor.” — [Tofugu](https://www.tofugu.com/japan/doujinshi-definition/)
-
-Also: [Copyright and Comics in Japan: Does Law Explain Why All the Cartoons My Kid Watches are Japanese Imports?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=347620)
-
-<!--<br />
-<h3>Elfen Lied</h3>
-<p>The first thing I watched after re-discovering anime was Elfen Lied. As I was blown away I became kind of obsessed with it and collected loads of information and fan art. Since this could be of some use to others I'll just <a href="?c=el">leave this here</a>.</p>-->
 - - -
 # MOAR<span id="MOAR"></span>
 Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to create a section for, is represented somewhere else on the site, etc.
@@ -267,7 +265,6 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a [system camera](static/img/interests/P1000049s1000.jpg) after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
 * geocaching
-* cinematography (as in [I watch movies](static/dl/movies))
 * physical security (see [lock picking](#lockpicking))
 * psychology (introductory class in 2013/14; social psy. + work and organizational psy. in 2016/17, educational psychology in 2017)
 * social engineering (psychology, physical security, it security, ...)
@@ -290,7 +287,7 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
         <li><a href="#exploration">(Urban) Exploration</a></li>
         <li><a href="#lockpicking">Lock picking</a></li>
         <li><a href="#speedrunning">Speedrunning</a></li>
-        <li><a href="#anime">Anime</a></li>
+        <li><a href="#remix">Remix culture</a></li>
         <li><a href="#MOAR">MOAR</a></li>
     </ul>
 </div>
