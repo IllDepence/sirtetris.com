@@ -9,10 +9,7 @@
 {% endif %}
 </div>
 {% endif %}
-<div> <!-- this empty div + empty line makes markdown work for entries w/o image. not a fucking clue why -->
-
-</div>
-{{ text|safe }}
+<span class="textcut"></span>{{ text|safe }}<span class="textcut"></span>
 <div class="footline">
 <div class="tags"><p><strong>tags: {% for t in tags %}<a href="?t={{ t }}">{{ t }}</a> {% endfor %}</strong></p></div>
 <div class="date"><p>{{ date }}</p></div>

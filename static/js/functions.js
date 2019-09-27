@@ -8,7 +8,7 @@ function js_init() {
     }
 function toggle_vis(elem) {
     var yt_id = elem.id;
-    var cntnt = document.querySelector('div[id*="'+yt_id+'"]');
+    var cntnt = document.querySelector('span[id*="'+yt_id+'"]');
     if(cntnt.className == "vis-off") {
         var ifr = document.createElement('iframe');
         ifr.width = 700;

@@ -58,13 +58,14 @@ Timeline |<!-- this makes the table work -->
 16/12/12 | [2000 kanji](?a=1f099c17)
 18/05/01 | 6000 words vocabulary
 18/07/01 | took the JLPT N1 (result: 111/180)
+19/06/16 | took the 漢検５級 and ４級 (results: 165/200 and 146/200)
 
 <div class="hr"></div>
 ## &gt; Side quest: explore the country
 ##### <br>
 ### Progress<span id="jp-ex-progress"></span>
 ‌  
-![](static/img/projects/explore_jp_11.jpg)
+![](static/img/projects/explore_jp_13.jpg)
 ‌  
 
 Timeline |<!-- this makes the table work -->
@@ -83,6 +84,8 @@ Timeline |<!-- this makes the table work -->
 18/01/10 | day trip to 埼玉県
 18/04/21 | quick trip to 琵琶湖 (滋賀県)
 18/04/30 | attended ニコニコ超会議 in 千葉県
+19/06/21 | quick trip to 神戸 (兵庫県)
+19/06/22 | quick trip to 奈良 (奈良県)
 
 - - -
 # I tinker with tech!
@@ -90,7 +93,7 @@ Timeline |<!-- this makes the table work -->
 
 ![](static/img/projects/rpi.png)
 
-[Linux systems](https://github.com/IllDepence/dotfiles), [tools](https://github.com/IllDepence/kanjiplot), [games](https://github.com/IllDepence/GO-AWAY-I-M-EXPLODING), ... tinker with all the things! What you see above is one of my [Raspberry Pis](http://www.raspberrypi.org/).
+[Linux systems](https://github.com/IllDepence/dotfiles), [tools](https://github.com/IllDepence/SVG_pitch), [games](https://github.com/IllDepence/GO-AWAY-I-M-EXPLODING), ... tinker with all the things! What you see above is one of my [Raspberry Pis](http://www.raspberrypi.org/). More software projects on the right hand side under <a href="#git_repos">Git repos</a>.
 - - -
 # I have a website!
 *It's a clunky pile of Python but I don't care. :)*
@@ -101,20 +104,21 @@ Started doing this in 2005. Content changes over time as do my interests.
 <script src="static/pages/kanjigraph.js"></script>
 - - -
 - - -
-## Git repos
-* [JSONkeeper](https://github.com/IllDepence/JSONkeeper)
+## <span id="git_repos"></span>Git repos
+
+* [SVG pitch](https://github.com/IllDepence/SVG_pitch)
 * [Ubunchu!](https://sirtetris.gitlab.io/ubunchu-translation/)
+* [{御,誤}用組文字](https://github.com/IllDepence/goyoukumimoji)
 * [kanjiplot](https://github.com/IllDepence/kanjiplot)
 * [findvocab](https://github.com/IllDepence/findvocab)
 * [anihilist](https://github.com/IllDepence/anihilist)
 * [calyx](https://github.com/IllDepence/calyx)
 * [MALandBots](https://github.com/IllDepence/MALandBots)
-* [{御,誤}用組文字](https://github.com/IllDepence/goyoukumimoji)
 * [userscripts](https://github.com/IllDepence/userscripts)
 * [sirtetris.com](https://github.com/IllDepence/sirtetris.com)
 - - -
 ## MISC
-* [Wikipedia](https://en.wikipedia.org/wiki/User:IllDepence)
+* [Wikipedia](https://meta.wikimedia.org/wiki/User:IllDepence)
 * [DB hidden buttons](?a=6a17efc0)
 * [Giant pokemon](http://giantpokemon.tumblr.com/)
 * [1.88 € time-lapse](static/img/projects/ir_remote.png)

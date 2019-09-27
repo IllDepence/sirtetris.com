@@ -33,40 +33,47 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 * [Lang-8](http://lang-8.com/) (corrections from native speakers)
 * [Anki](http://ankisrs.net/) ([SRS](https://en.wikipedia.org/wiki/Spaced_repetition) with synchronization)
     * [Japanese Support](https://ankiweb.net/shared/info/3918629684) (plugin)
+    * [Automatically add pitch accent information to cards](https://ankiweb.net/shared/info/148002038) (plugin)
     * [Script for plotting the number of kanji in an Anki deck over time](https://github.com/IllDepence/kanjiplot)
     * [Script for finding new useful vocab based on frequency lists](https://github.com/IllDepence/findvocab)
+* Dictionaries:
+    * PC: [Tagaini Jisho](http://www.tagaini.net/)
+    * Web: [goo辞書](https://dictionary.goo.ne.jp/), [WWWJDIC](http://nihongo.monash.edu/cgi-bin/wwwjdic), [Denshi Jisho](http://jisho.org/)
+    * Browser plugin for [Firefox](http://rikaichan.mozdev.org/) and [Chrome](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
+    * Android: [monolingual & offline](?a=bbcb7e53)
+* Examples sentences and collocations:
+    * [Tsukuba Web Corpus](http://nlt.tsukuba.lagoinst.info/)
+    * [Balanced Corpus of Contemporary Written Japanese](http://nlb.ninjal.ac.jp/)
 * [News in Slow Japanese](http://newsinslowjapanese.com/home/) (listening practice)
-* Dictionaries: [Tagaini Jisho](http://www.tagaini.net/), [WWWJDIC](http://nihongo.monash.edu/cgi-bin/wwwjdic), [tangorin](http://tangorin.com/), [Denshi Jisho](http://jisho.org/)
-* Browser dictionary plugin for [Firefox](http://rikaichan.mozdev.org/) and [Chrome](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
-* [Example sentences](http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none)
 * [KanjiTomo](http://www.kanjitomo.net/) (identify Japanese characters from images)
 * [JLPT kanji check](http://moc.sirtetris.com/jlptkanjicheck/)
-* [KanjiSheets](http://kanjisheets.com/) (custom Kanji practice sheets)
 * [minimum font size for Japanese text](http://moc.sirtetris.com/enlargeJapanese.user.js) (user script)
 * [GNU Unifont](http://unifoundry.com/unifont.html) (useful for graphemes/radicals)
-* [Kana Invaders](http://learnjapanesepod.com/kana-invaders/)
 <!--* Wallpaper for [dates](static/img/interests/dates_anime.png), [time](static/img/interests/time_anime.png), [timespans](static/img/interests/timespans_anime.png), [casual grammar](static/img/interests/casuals_anime.png), [indefinite pronouns](static/img/interests/indefinite_pronouns_anime.png)  -->
 * [Kana input without IM](?a=079cf21f) (Linux/BSD)
 
 #### Absorb
 
-* About Japan
+* About Japan (this is a [dark playground](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html#note-1-502), try to get to a point where Japanese content is fun)
     * [Tofugu](https://www.youtube.com/user/tofugu)
     * [Rachel & Jun](https://www.youtube.com/user/MyHusbandisJapanese)
-    * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
     * [Hikosaemon](https://www.youtube.com/user/Hikosaemon)
-    * [tomoko tomoko](https://www.youtube.com/user/bowietomo0803)
     * [BusanKevin](https://www.youtube.com/user/BusanKevin) / [jlandkev](https://www.youtube.com/user/jlandkev)
+    * [Gimmeabreakman](https://www.youtube.com/gimmeabreakman) / [Gimmeaflakeman](https://www.youtube.com/user/Gimmeaflakeman)
     * [ミカエラ](https://www.youtube.com/user/Ciaela) / [Micaela Braithwaite](https://www.youtube.com/user/mikaeradesu)
 * In Japanese
-    * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
     * [Dogen](https://www.youtube.com/user/Dogen)
+    * [コウイチTV](https://www.youtube.com/user/kouichitv)
+    * [さーちゃんネル](https://www.youtube.com/channel/UCcDZtKh3a7EiscYgbr_468w)
     * [backspace.fm](http://backspace.fm/)
     * [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
+    * [国立国語研究所](https://twitter.com/kokugoken)
+    * [文学YouTuberベル](https://www.youtube.com/channel/UCL4QAojeGy6CJ9R2PwmlmJQ)
     * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec)
     * [無駄づくり MUDAZUKURI -Wasted Creation-](https://www.youtube.com/user/mudadukuri)
     * [木下ゆうか Yuka Kinoshita](https://www.youtube.com/user/kinoyuu0204)
     * [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
+    * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
     * [Google Japan](https://www.youtube.com/user/googlejapan)
     * [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)
 
@@ -82,7 +89,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
     * [TwiPla](https://twipla.jp/)
 
 ‌  
-My personal Japanese progress has it's own place in the [projects section](?c=projects).
+My personal Japanese progress has it's own place in the [projects section](?c=proj).
 - - -
 # Parkour<span id="parkour"></span>
 *“Recontextualizing public urban space as a playground instead of something merely functional.”* ([Source](https://soundcloud.com/officialsxsw/hacking-language-bots-if-and-esolangs-sxsw-interactive-2016))
@@ -216,7 +223,7 @@ I myself never did serious speedrunning. Further down some casual (and old) stuf
 
 ![](static/img/interests/remix.jpg)
 
-Maybe not a hobby in the traditional sense, but something I would like people to be more aware of and where try myself to lead by example. Use (and thereby spread) stuff that is permissively licensed ([e.g. muisc](https://www.youtube.com/watch?v=URz6XdYJdqw)), buy [DRM free](https://www.defectivebydesign.org/guide) whenever possible, release under permissive licenses yourself.
+Maybe not a hobby in the traditional sense, but something I would like people to be more aware of and where I try to lead by example. Use (and thereby spread) stuff that is permissively licensed ([e.g. muisc](https://www.youtube.com/watch?v=URz6XdYJdqw)), buy [DRM free](https://www.defectivebydesign.org/guide) whenever possible, release under permissive licenses yourself.
 
 If you haven't seen it yet, watch [Everything is a Remix](https://vimeo.com/139094998). Further down some very specific realms of remix culture.
 
@@ -233,7 +240,7 @@ No connection to licensing and legality here. Just fun content if it's your cup 
 Example AMVs:<div style="overflow-x:auto"><!-- div for mobile device special treatment-->  
 
 
-Creator | Title | Anime | Download | YouTube
+Creator | Title | Source | Download | YouTube
 :-|:-|:-|:-:|:-:
 Hagaren Viper | This Is Halloween | Soul Eater | [💾](http://www.animemusicvideos.org/members/members_videoinfo.php?v=172517) | [▶](https://www.youtube.com/watch?v=i_zYrYkbrGY)
 Gorz | Beauty And A Glitch | Fate/stay night: UBW | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=6610) | [▶](https://www.youtube.com/watch?v=0pRJJhAjosc)
@@ -262,7 +269,6 @@ Stuff that I was into, want to get into, am into but lack usable content to pres
 * tabletop games
 * sharing economy, collaborative consumption, crowdsourcing
 * i18n/l10n
-* photography (as in [I <s>own</s> owned a DSLR camera](static/img/interests/DSC_0131cgs1000.jpg) and switched to a [system camera](static/img/interests/P1000049s1000.jpg) after 7 years)
 * speedcubung ([WCA](http://www.worldcubeassociation.org/results/p.php?i=2013SAIE02))
 * geocaching
 * physical security (see [lock picking](#lockpicking))

@@ -22,8 +22,8 @@ Alternatively use [ProtonMail](https://protonmail.com/) and reach me at <span id
 ## いい<br>&thinsp;&nbsp;人
 * [Annette](http://penguinlyawesome.tumblr.com)
 * [Duc-Ha](http://coldbloodedness.blogspot.com)
-* [Eric](http://erics.bplaced.de/)
-* [Michael](http://www.goodchapy.com/)
+<!-- * [Eric](http://erics.bplaced.de/) domain expired? -->
+<!-- * [Michael](http://www.goodchapy.com/) domain expired? -->
 * [Wolfgang](http://vehk.de/)
 - - -
 ## Imprint
