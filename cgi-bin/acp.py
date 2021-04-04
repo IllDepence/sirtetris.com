@@ -71,7 +71,7 @@ if 'edit' in postget:
 
 if 'headline' in postget and 'text' in postget:
     msg = '&gt;&gt; enrty '
-    if 'replace' in postget:
+    if 'replace' in postget and postget['replace'].value != '(None,)':
         for e in entries:
             if e['id'] == postget['replace'].value:
                 e['text'] = postget['text'].value
@@ -83,7 +83,9 @@ if 'headline' in postget and 'text' in postget:
     else:
         new_entry = {}
         new_entry['text'] = postget['text'].value
-        new_entry['id'] = '{:x}'.format(zlib.adler32(new_entry['text']))
+        new_entry['id'] = '{:x}'.format(
+            zlib.adler32(str.encode(new_entry['text']))
+            )
         new_entry['tags'] = postget['tags'].value.split(',')
         new_entry['date'] = datetime.datetime.strftime(datetime.datetime.now(),
                                                        '%Y-%m-%d')
@@ -112,7 +114,7 @@ for e in entries:
 print('Content-Type: text/html\r\n')
 print(build_html(headline=headline,
                  image=image,
-                 tags=tags,
+                 tags=','.join(tags),
                  text=text,
                  replace_id=replace_id,
                  msg=msg,

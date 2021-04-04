@@ -12,8 +12,8 @@ import os
 import re
 import sys
 
-#HOME_DIR = '/home/sirtetri/www/'
-HOME_DIR = '/var/www/html/tarek/sirtetris/'
+HOME_DIR = '/home/tarek/www/sirtetris/'
+# HOME_DIR = '/var/www/html/tarek/sirtetris/'
 SEPARATOR = u'- - -\n'
 MD_EXT = ['markdown.extensions.tables']
 jsdec = json.decoder.JSONDecoder()
@@ -41,7 +41,7 @@ def yt_toggles(markdown):
     yt_toggle = re.compile('<!-- ytdd:(.*):(.*) -->', re.M)
     return re.sub(yt_toggle, r'<a href="//www.youtube.com/watch?v=\2" id="\2"'\
         r' class="vis-tggl">\1</a><br>'\
-        r'<div id="vis-cntnt-\2" class="vis-off"></div>', markdown)
+        r'<span id="vis-cntnt-\2" class="vis-off"></span>', markdown)
 
 def yt_inserts(markdown):
     yt_toggle = re.compile('<!-- yt:(.*) -->', re.M)
@@ -66,7 +66,7 @@ def blog_entry(e, imgside):
         text=e['text'], tags=e['tags'], date=e['date'])
     return blog_entry
 
-def blog_entries(postget):
+def blog_entries(req_path_dic):
     perma = None
     tag   = None
     page  = 1
@@ -79,12 +79,12 @@ def blog_entries(postget):
     entries = sorted(entries_u, key=lambda e: e['date'], reverse=True)
     maxpage = ((len(entries)-1)/perpage)+1
 
-    if 'a' in postget:
-        perma = postget['a'].value
-    if 't' in postget:
-        tag   = postget['t'].value
-    if 'p' in postget:
-        page  = min(int(postget['p'].value), maxpage)
+    if 'article' in req_path_dic:
+        perma = req_path_dic['article']
+    if 'tag' in req_path_dic:
+        tag = req_path_dic['tag']
+    if 'page' in req_path_dic:
+        page = min(int(req_path_dic['page']), maxpage)
 
     content = ''
 
@@ -135,20 +135,28 @@ def blog_entries(postget):
 
 env = Environment(loader=FileSystemLoader('static/templates'))
 postget = cgi.FieldStorage()
-if not 'c' in postget and not 'a' in postget and not 'p' in postget and not 't' in postget:
-    page = 'top'
-elif not 'c' in postget:
-    page = 'blog'
+req_path_str = [val for val in postget.getlist('q') if val != 'index.py'][0]
+req_path_arr = req_path_str.split('/')
+req_path_dic = {}
+for i in range(int(len(req_path_arr)/2)):
+    key = req_path_arr[i*2]
+    val = req_path_arr[(i*2)+1]
+    req_path_dic[key] = val
+if req_path_dic.keys()[0] in ['article', 'page', 'tag']:
+    section = 'blog'
+elif 'section' in req_path_dic:
+    if req_path_dic['section'] in ['top', 'blog', 'hbby', 'proj', 'misc',
+                                'imprint']:
+        section = req_path_dic['section']
+    else:
+        section = 'notfound'
 else:
-    page = postget['c'].value
-    valid = ['top', 'blog', 'hbby', 'proj', 'misc', 'imprint']
-    if not page in valid:
-        page = 'notfound'
+    section = 'top'
 
-if page == 'blog':
-    content = blog_entries(postget)
-elif page != 'top':
-    fd = codecs.open('static/pages/{0}.md'.format(page), encoding='utf-8')
+if section == 'blog':
+    content = blog_entries(req_path_dic)
+elif section != 'top':
+    fd = codecs.open('static/pages/{0}.md'.format(section), encoding='utf-8')
     content = fd.read()
     fd.close()
 else:
@@ -162,7 +170,7 @@ if accept_lang and 'ja' in accept_lang:
 else:
     content = mixlangs(content, False)
 
-if page == 'top':
+if section == 'top':
     template = env.get_template('tashumimaru.html')
     fill = None
     left = None
@@ -178,12 +186,23 @@ else:
         fill = None
     else:
         template = env.get_template('fill_layout.html')
-        fill = content.split(SEPARATOR)
-        fill = [markdown.markdown(f, extensions=MD_EXT) for f in fill]
+        vill = content.split(SEPARATOR)
+        fill = []
+        for v in vill:
+            if '<span class="textcut"></span>' in v:
+                parts = v.split('<span class="textcut"></span>')
+                v = u'{0}{1}{2}'.format(
+                        parts[0],
+                        markdown.markdown(parts[1], extensions=MD_EXT),
+                        parts[2]
+                        )
+            else:
+                v = markdown.markdown(v, extensions=MD_EXT)
+            fill.append(v)
         left = None
         right = None
 
 unicode_page = template.render(left=left, right=right,
-                                fill=fill, subtitle=page)
+                                fill=fill, subtitle=section)
 print 'Content-Type: text/html\r\n'
 print unicode_page.encode('utf-8')

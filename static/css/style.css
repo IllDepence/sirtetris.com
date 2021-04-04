@@ -112,7 +112,7 @@ border: 1px solid #636363;
 
 #content {
 margin: 0px auto;
-margin-bottom: 200px;
+margin-bottom: 50px;
 width: 894px;
 padding: 10px 10px 3px 10px;
 overflow: hidden;
@@ -126,10 +126,6 @@ padding-right: 0px;
 padding-top: 2px;
 text-decoration: none;
 color: #5d5d5d;
-}
-
-#footer > a {
-float: right;
 }
 
 div#floatbox_l {
@@ -498,6 +494,4 @@ opacity: 0.2;
   60%    { opacity: 1}
   70%    { opacity: 0}
   100%  { opacity: 0}
-}
-
 }

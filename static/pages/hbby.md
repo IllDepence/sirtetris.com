@@ -19,6 +19,7 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 * [Tofugu’s 100 Best Resources For Learning Japanese](http://www.tofugu.com/2010/04/06/tofugu-100-best-japanese-learning-resources/)
 * [Japanese FAQ](http://www.sljfaq.org/afaq/afaq.html) (from the usenet newsgroup sci.lang.japan)
 * [all japanese all the time TOC](http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency)
+* [Japanese pitch accent resources](https://github.com/olety/japanese-pitch-accent-resources)
 
 #### Guides
 
@@ -26,7 +27,9 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
 * [IMABI](http://www.imabi.net/) (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)
 * [An Introduction to Japanese; Syntax, Grammar & Language](http://grammar.nihongoresources.com/) (free, extensive grammar guide)
 * [TextFugu](http://www.textfugu.com/) (free *only* up to the point where you'd start learning kanji)
-* [Tofugu's writings on learning](http://www.tofugu.com/tag/learning/)
+* [Japanese Pronunciation for Communication (Waseda University)](https://www.edx.org/course/japanese-pronunciation-for-communication) (free, pronunciation guide)
+* [Pronunciation: Speaking with Fluency (Waseda University)](http://course-channel.waseda.jp/subject/contents/9204B34014/01/92) (free, pronunciation guide)
+<!-- * [Tofugu's writings on learning](http://www.tofugu.com/tag/learning/) -->
 
 #### Use
 
@@ -66,16 +69,18 @@ Appetizer: NativLang's [three](https://www.youtube.com/watch?v=bcdYKxHT8kY) [par
     * [コウイチTV](https://www.youtube.com/user/kouichitv)
     * [さーちゃんネル](https://www.youtube.com/channel/UCcDZtKh3a7EiscYgbr_468w)
     * [backspace.fm](http://backspace.fm/)
+    * [rebuild.fm](https://rebuild.fm/)
+    * [学生のイドバタ会](https://radiopublic.com/-8Xow2k)
     * [GINプロジェクト](https://www.youtube.com/channel/UCQ1LG3Z-Ot6MdxooyzQRYBA)
     * [国立国語研究所](https://twitter.com/kokugoken)
     * [文学YouTuberベル](https://www.youtube.com/channel/UCL4QAojeGy6CJ9R2PwmlmJQ)
-    * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec)
+<!--    * [ご当地ざっくり10秒インタビュー](https://www.youtube.com/user/gotouchi10sec) -->
     * [無駄づくり MUDAZUKURI -Wasted Creation-](https://www.youtube.com/user/mudadukuri)
     * [木下ゆうか Yuka Kinoshita](https://www.youtube.com/user/kinoyuu0204)
     * [ARI OR ALI](https://www.youtube.com/user/ARIORALI) / [Ari Keita](https://www.youtube.com/user/ARIKEITA113)
     * [nihongonomori joey](https://www.youtube.com/user/freejapaneselessons3)
     * [Google Japan](https://www.youtube.com/user/googlejapan)
-    * [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)
+<!--    * [Japanese-Subtitles](http://jpsubbers.web44.net/Japanese-Subtitles/)-->
 
 ### Interact
 
@@ -253,8 +258,9 @@ Okami | Futuristic Lover | Bakemonogatari | [💾](http://amvnews.ru/index.php?g
 Nostromo | Binary Overdrive | Genius Party Beyond | [💾](http://www.nostro.fr/amv-binary-overdrive/) | [▶](https://www.youtube.com/watch?v=QwMSemZX81U)
 Nostromo | Distant Echo | mixed | [💾](http://www.nostro.fr/amv-distance-mep/) | [▶](https://www.youtube.com/watch?v=nVMPiEilNm4)
 EvilSpiritAMV | Visible | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=5430) | [▶](https://www.youtube.com/watch?v=ZdQzpWOqBX8)
-seriy | Affective Schoolgirls | Nichijou | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4569) | [▶](https://www.youtube.com/watch?v=2uHRi67mlsc)
+Padre | Whack | One Punch Man | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=7590) | [▶](https://www.youtube.com/watch?v=Z1p5Y494TV8)
 007 Vegita | Race Against Time Trailer | Dragonball Z | [💾](http://www.video-game-chat.com/dbzsc/) | [▶](https://www.youtube.com/watch?v=sgeXlq1jvVY)
+seriy | Affective Schoolgirls | Nichijou | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4569) | [▶](https://www.youtube.com/watch?v=2uHRi67mlsc)
 Umika, ZEVS1993 | Our Tapes | mixed | [💾](http://amvnews.ru/index.php?go=Files&in=view&id=4470) | [▶](https://www.youtube.com/watch?v=Z6IL_YVNBDQ)
 
 

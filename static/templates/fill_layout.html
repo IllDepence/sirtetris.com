@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block subtitle %}{{ subtitle }}{% endblock %}
+
 {% block content %}
 <div id="floatbox_b">
     {% for item in fill %}
@@ -10,4 +11,8 @@
         {% endif %}
     {% endfor %}
 </div>
+{% endblock %}
+
+{% block footer %}
+<a href="https://webring.xxiivv.com/#random" target="_blank"><img src="https://webring.xxiivv.com/icon.black.svg" style="display: block; margin: auto; width: 30px; height: 30px;"/></a>
 {% endblock %}
